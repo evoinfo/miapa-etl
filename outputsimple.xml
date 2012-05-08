@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<heading>OTUs contained within this NeXML file:</heading>
+<MIAPA-OTU>otu1</MIAPA-OTU>
+<MIAPA-OTU>otu2</MIAPA-OTU>
+<MIAPA-OTU>otu3</MIAPA-OTU>
+<heading>Character types in this NeXML file:</heading>
+<MIAPA-CharType>DNA sequence</MIAPA-CharType>
+
