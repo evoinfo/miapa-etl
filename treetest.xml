@@ -1,0 +1,22 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<?xml-stylesheet type="text/xsl" href="miapatest.xsl"?>
+<nex:nexml xmlns:nex="http://www.nexml.org/2009" xmlns="http://www.nexml.org/2009" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tb="http://treebase.org/terms#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" about="#nex_nexml2" generator="org.nexml.model.impl.DocumentImpl" id="S794" version="0.9" xml:base="http://purl.org/phylo/treebase/phylows/study/TB2:">
+  <otus id="Tls10691" label="TaxonLabelSet10691" base="http://purl.org/phylo/treebase/phylows/taxon/TB2:">
+    <otu about="#Tl126179" id="Tl126179" label="Grifola sordulenta">
+      <meta content="12578" datatype="xsd:long" id="meta24" property="tb:identifier.taxon" type="nex:LiteralMeta"/>
+      <meta content="29804" datatype="xsd:long" id="meta23" property="tb:identifier.taxonVariant" type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/172312" id="meta22" rel="skos:closeMatch" type="nex:ResourceMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3209417" id="meta21" rel="skos:closeMatch" type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S794" id="meta20" rel="rdfs:isDefinedBy" type="nex:ResourceMeta"/>
+    </otu>
+<!-- namespaces removed above
+<otu about="#Tl261" id="Tl261" label="Grifola frondosa WC836">
+      <meta content="12577" datatype="xsd:long" id="meta31" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="29801" datatype="xsd:long" id="meta30" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/5627" id="meta29" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Grifola frondosa" datatype="xsd:string" id="meta28" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3234622" id="meta27" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S794" id="meta26" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu> -->
+  </otus>	
+</nex:nexml>
