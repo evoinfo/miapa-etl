@@ -9,14 +9,1428 @@
       <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3209417" id="meta21" rel="skos:closeMatch" type="nex:ResourceMeta"/>
       <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S794" id="meta20" rel="rdfs:isDefinedBy" type="nex:ResourceMeta"/>
     </otu>
-<!-- namespaces removed above
-<otu about="#Tl261" id="Tl261" label="Grifola frondosa WC836">
+    <otu about="#Tl261" id="Tl261" label="Grifola frondosa WC836">
       <meta content="12577" datatype="xsd:long" id="meta31" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
       <meta content="29801" datatype="xsd:long" id="meta30" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
       <meta href="http://purl.uniprot.org/taxonomy/5627" id="meta29" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
       <meta content="Grifola frondosa" datatype="xsd:string" id="meta28" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
       <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3234622" id="meta27" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
       <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S794" id="meta26" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
-    </otu> -->
+    </otu>
+    <otu about="#Tl261" id="Tl261" label="Grifola frondosa WC835">
+      <meta content="12577" datatype="xsd:long" id="meta31" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="29801" datatype="xsd:long" id="meta30" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/5627" id="meta29" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Grifola frondosa" datatype="xsd:string" id="meta28" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3234622" id="meta27" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S794" id="meta26" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
+    <otu about="#Tl238" id="Tl238" label="Arbitrary OTU name">
+      <meta content="12577" datatype="xsd:long" id="meta38" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+      <meta content="29801" datatype="xsd:long" id="meta37" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.uniprot.org/taxonomy/5627" id="meta36" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta content="Grifola frondosa" datatype="xsd:string" id="meta35" property="skos:altLabel" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3234622" id="meta34" rel="skos:closeMatch" xsi:type="nex:ResourceMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S794" id="meta33" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+    </otu>
   </otus>	
+  <characters about="#M83" id="M83" label="ITS and BT" otus="Tls10691" xml:base="http://purl.org/phylo/treebase/phylows/matrix/TB2:" xsi:type="nex:DnaSeqs">
+    <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:As1269" id="meta1840" rel="tb:input.analysistep" xsi:type="nex:ResourceMeta"/>
+    <meta content="M1020" datatype="xsd:string" id="meta1619" property="tb:identifier.matrix.tb1" xsi:type="nex:LiteralMeta"/>
+    <meta content="83" datatype="xsd:long" id="meta1618" property="tb:identifier.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="1161" datatype="xsd:integer" id="meta1617" property="tb:nchar.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="52" datatype="xsd:integer" id="meta1616" property="tb:ntax.matrix" xsi:type="nex:LiteralMeta"/>
+    <meta content="DNA" datatype="xsd:string" id="meta1615" property="tb:type.matrix" xsi:type="nex:LiteralMeta"/>
+    <format>
+      <states id="states383">
+        <state id="state384" symbol="A"/>
+        <state id="state385" symbol="C"/>
+        <state id="state386" symbol="G"/>
+        <state id="state387" symbol="T"/>
+        <uncertain_state_set id="uncertain_state_set388" symbol="K">
+          <member state="state386"/>
+          <member state="state387"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set389" symbol="M">
+          <member state="state385"/>
+          <member state="state384"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set390" symbol="R">
+          <member state="state386"/>
+          <member state="state384"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set391" symbol="S">
+          <member state="state386"/>
+          <member state="state385"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set392" symbol="W">
+          <member state="state387"/>
+          <member state="state384"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set393" symbol="Y">
+          <member state="state385"/>
+          <member state="state387"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set394" symbol="B">
+          <member state="state386"/>
+          <member state="state387"/>
+          <member state="state385"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set395" symbol="D">
+          <member state="state386"/>
+          <member state="state387"/>
+          <member state="state384"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set396" symbol="H">
+          <member state="state386"/>
+          <member state="state387"/>
+          <member state="state384"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set397" symbol="V">
+          <member state="state386"/>
+          <member state="state385"/>
+          <member state="state384"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set398" symbol="N">
+          <member state="state386"/>
+          <member state="state385"/>
+          <member state="state387"/>
+          <member state="state384"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set399" symbol="X">
+          <member state="state386"/>
+          <member state="state385"/>
+          <member state="state387"/>
+          <member state="state384"/>
+        </uncertain_state_set>
+        <uncertain_state_set id="uncertain_state_set400" symbol="-"/>
+        <uncertain_state_set id="uncertain_state_set401" symbol="?">
+          <member state="uncertain_state_set400"/>
+          <member state="state386"/>
+          <member state="state384"/>
+          <member state="state387"/>
+          <member state="state385"/>
+        </uncertain_state_set>
+      </states>
+      <char id="char402" states="states383"/>
+      <char id="char403" states="states383"/>
+      <char id="char404" states="states383"/>
+      <char id="char405" states="states383"/>
+      <char id="char406" states="states383"/>
+      <char id="char407" states="states383"/>
+      <char id="char408" states="states383"/>
+      <char id="char409" states="states383"/>
+      <char id="char410" states="states383"/>
+      <char id="char411" states="states383"/>
+      <char id="char412" states="states383"/>
+      <char id="char413" states="states383"/>
+      <char id="char414" states="states383"/>
+      <char id="char415" states="states383"/>
+      <char id="char416" states="states383"/>
+      <char id="char417" states="states383"/>
+      <char id="char418" states="states383"/>
+      <char id="char419" states="states383"/>
+      <char id="char420" states="states383"/>
+      <char id="char421" states="states383"/>
+      <char id="char422" states="states383"/>
+      <char id="char423" states="states383"/>
+      <char id="char424" states="states383"/>
+      <char id="char425" states="states383"/>
+      <char id="char426" states="states383"/>
+      <char id="char427" states="states383"/>
+      <char id="char428" states="states383"/>
+      <char id="char429" states="states383"/>
+      <char id="char430" states="states383"/>
+      <char id="char431" states="states383"/>
+      <char id="char432" states="states383"/>
+      <char id="char433" states="states383"/>
+      <char id="char434" states="states383"/>
+      <char id="char435" states="states383"/>
+      <char id="char436" states="states383"/>
+      <char id="char437" states="states383"/>
+      <char id="char438" states="states383"/>
+      <char id="char439" states="states383"/>
+      <char id="char440" states="states383"/>
+      <char id="char441" states="states383"/>
+      <char id="char442" states="states383"/>
+      <char id="char443" states="states383"/>
+      <char id="char444" states="states383"/>
+      <char id="char445" states="states383"/>
+      <char id="char446" states="states383"/>
+      <char id="char447" states="states383"/>
+      <char id="char448" states="states383"/>
+      <char id="char449" states="states383"/>
+      <char id="char450" states="states383"/>
+      <char id="char451" states="states383"/>
+      <char id="char452" states="states383"/>
+      <char id="char453" states="states383"/>
+      <char id="char454" states="states383"/>
+      <char id="char455" states="states383"/>
+      <char id="char456" states="states383"/>
+      <char id="char457" states="states383"/>
+      <char id="char458" states="states383"/>
+      <char id="char459" states="states383"/>
+      <char id="char460" states="states383"/>
+      <char id="char461" states="states383"/>
+      <char id="char462" states="states383"/>
+      <char id="char463" states="states383"/>
+      <char id="char464" states="states383"/>
+      <char id="char465" states="states383"/>
+      <char id="char466" states="states383"/>
+      <char id="char467" states="states383"/>
+      <char id="char468" states="states383"/>
+      <char id="char469" states="states383"/>
+      <char id="char470" states="states383"/>
+      <char id="char471" states="states383"/>
+      <char id="char472" states="states383"/>
+      <char id="char473" states="states383"/>
+      <char id="char474" states="states383"/>
+      <char id="char475" states="states383"/>
+      <char id="char476" states="states383"/>
+      <char id="char477" states="states383"/>
+      <char id="char478" states="states383"/>
+      <char id="char479" states="states383"/>
+      <char id="char480" states="states383"/>
+      <char id="char481" states="states383"/>
+      <char id="char482" states="states383"/>
+      <char id="char483" states="states383"/>
+      <char id="char484" states="states383"/>
+      <char id="char485" states="states383"/>
+      <char id="char486" states="states383"/>
+      <char id="char487" states="states383"/>
+      <char id="char488" states="states383"/>
+      <char id="char489" states="states383"/>
+      <char id="char490" states="states383"/>
+      <char id="char491" states="states383"/>
+      <char id="char492" states="states383"/>
+      <char id="char493" states="states383"/>
+      <char id="char494" states="states383"/>
+      <char id="char495" states="states383"/>
+      <char id="char496" states="states383"/>
+      <char id="char497" states="states383"/>
+      <char id="char498" states="states383"/>
+      <char id="char499" states="states383"/>
+      <char id="char500" states="states383"/>
+      <char id="char501" states="states383"/>
+      <char id="char502" states="states383"/>
+      <char id="char503" states="states383"/>
+      <char id="char504" states="states383"/>
+      <char id="char505" states="states383"/>
+      <char id="char506" states="states383"/>
+      <char id="char507" states="states383"/>
+      <char id="char508" states="states383"/>
+      <char id="char509" states="states383"/>
+      <char id="char510" states="states383"/>
+      <char id="char511" states="states383"/>
+      <char id="char512" states="states383"/>
+      <char id="char513" states="states383"/>
+      <char id="char514" states="states383"/>
+      <char id="char515" states="states383"/>
+      <char id="char516" states="states383"/>
+      <char id="char517" states="states383"/>
+      <char id="char518" states="states383"/>
+      <char id="char519" states="states383"/>
+      <char id="char520" states="states383"/>
+      <char id="char521" states="states383"/>
+      <char id="char522" states="states383"/>
+      <char id="char523" states="states383"/>
+      <char id="char524" states="states383"/>
+      <char id="char525" states="states383"/>
+      <char id="char526" states="states383"/>
+      <char id="char527" states="states383"/>
+      <char id="char528" states="states383"/>
+      <char id="char529" states="states383"/>
+      <char id="char530" states="states383"/>
+      <char id="char531" states="states383"/>
+      <char id="char532" states="states383"/>
+      <char id="char533" states="states383"/>
+      <char id="char534" states="states383"/>
+      <char id="char535" states="states383"/>
+      <char id="char536" states="states383"/>
+      <char id="char537" states="states383"/>
+      <char id="char538" states="states383"/>
+      <char id="char539" states="states383"/>
+      <char id="char540" states="states383"/>
+      <char id="char541" states="states383"/>
+      <char id="char542" states="states383"/>
+      <char id="char543" states="states383"/>
+      <char id="char544" states="states383"/>
+      <char id="char545" states="states383"/>
+      <char id="char546" states="states383"/>
+      <char id="char547" states="states383"/>
+      <char id="char548" states="states383"/>
+      <char id="char549" states="states383"/>
+      <char id="char550" states="states383"/>
+      <char id="char551" states="states383"/>
+      <char id="char552" states="states383"/>
+      <char id="char553" states="states383"/>
+      <char id="char554" states="states383"/>
+      <char id="char555" states="states383"/>
+      <char id="char556" states="states383"/>
+      <char id="char557" states="states383"/>
+      <char id="char558" states="states383"/>
+      <char id="char559" states="states383"/>
+      <char id="char560" states="states383"/>
+      <char id="char561" states="states383"/>
+      <char id="char562" states="states383"/>
+      <char id="char563" states="states383"/>
+      <char id="char564" states="states383"/>
+      <char id="char565" states="states383"/>
+      <char id="char566" states="states383"/>
+      <char id="char567" states="states383"/>
+      <char id="char568" states="states383"/>
+      <char id="char569" states="states383"/>
+      <char id="char570" states="states383"/>
+      <char id="char571" states="states383"/>
+      <char id="char572" states="states383"/>
+      <char id="char573" states="states383"/>
+      <char id="char574" states="states383"/>
+      <char id="char575" states="states383"/>
+      <char id="char576" states="states383"/>
+      <char id="char577" states="states383"/>
+      <char id="char578" states="states383"/>
+      <char id="char579" states="states383"/>
+      <char id="char580" states="states383"/>
+      <char id="char581" states="states383"/>
+      <char id="char582" states="states383"/>
+      <char id="char583" states="states383"/>
+      <char id="char584" states="states383"/>
+      <char id="char585" states="states383"/>
+      <char id="char586" states="states383"/>
+      <char id="char587" states="states383"/>
+      <char id="char588" states="states383"/>
+      <char id="char589" states="states383"/>
+      <char id="char590" states="states383"/>
+      <char id="char591" states="states383"/>
+      <char id="char592" states="states383"/>
+      <char id="char593" states="states383"/>
+      <char id="char594" states="states383"/>
+      <char id="char595" states="states383"/>
+      <char id="char596" states="states383"/>
+      <char id="char597" states="states383"/>
+      <char id="char598" states="states383"/>
+      <char id="char599" states="states383"/>
+      <char id="char600" states="states383"/>
+      <char id="char601" states="states383"/>
+      <char id="char602" states="states383"/>
+      <char id="char603" states="states383"/>
+      <char id="char604" states="states383"/>
+      <char id="char605" states="states383"/>
+      <char id="char606" states="states383"/>
+      <char id="char607" states="states383"/>
+      <char id="char608" states="states383"/>
+      <char id="char609" states="states383"/>
+      <char id="char610" states="states383"/>
+      <char id="char611" states="states383"/>
+      <char id="char612" states="states383"/>
+      <char id="char613" states="states383"/>
+      <char id="char614" states="states383"/>
+      <char id="char615" states="states383"/>
+      <char id="char616" states="states383"/>
+      <char id="char617" states="states383"/>
+      <char id="char618" states="states383"/>
+      <char id="char619" states="states383"/>
+      <char id="char620" states="states383"/>
+      <char id="char621" states="states383"/>
+      <char id="char622" states="states383"/>
+      <char id="char623" states="states383"/>
+      <char id="char624" states="states383"/>
+      <char id="char625" states="states383"/>
+      <char id="char626" states="states383"/>
+      <char id="char627" states="states383"/>
+      <char id="char628" states="states383"/>
+      <char id="char629" states="states383"/>
+      <char id="char630" states="states383"/>
+      <char id="char631" states="states383"/>
+      <char id="char632" states="states383"/>
+      <char id="char633" states="states383"/>
+      <char id="char634" states="states383"/>
+      <char id="char635" states="states383"/>
+      <char id="char636" states="states383"/>
+      <char id="char637" states="states383"/>
+      <char id="char638" states="states383"/>
+      <char id="char639" states="states383"/>
+      <char id="char640" states="states383"/>
+      <char id="char641" states="states383"/>
+      <char id="char642" states="states383"/>
+      <char id="char643" states="states383"/>
+      <char id="char644" states="states383"/>
+      <char id="char645" states="states383"/>
+      <char id="char646" states="states383"/>
+      <char id="char647" states="states383"/>
+      <char id="char648" states="states383"/>
+      <char id="char649" states="states383"/>
+      <char id="char650" states="states383"/>
+      <char id="char651" states="states383"/>
+      <char id="char652" states="states383"/>
+      <char id="char653" states="states383"/>
+      <char id="char654" states="states383"/>
+      <char id="char655" states="states383"/>
+      <char id="char656" states="states383"/>
+      <char id="char657" states="states383"/>
+      <char id="char658" states="states383"/>
+      <char id="char659" states="states383"/>
+      <char id="char660" states="states383"/>
+      <char id="char661" states="states383"/>
+      <char id="char662" states="states383"/>
+      <char id="char663" states="states383"/>
+      <char id="char664" states="states383"/>
+      <char id="char665" states="states383"/>
+      <char id="char666" states="states383"/>
+      <char id="char667" states="states383"/>
+      <char id="char668" states="states383"/>
+      <char id="char669" states="states383"/>
+      <char id="char670" states="states383"/>
+      <char id="char671" states="states383"/>
+      <char id="char672" states="states383"/>
+      <char id="char673" states="states383"/>
+      <char id="char674" states="states383"/>
+      <char id="char675" states="states383"/>
+      <char id="char676" states="states383"/>
+      <char id="char677" states="states383"/>
+      <char id="char678" states="states383"/>
+      <char id="char679" states="states383"/>
+      <char id="char680" states="states383"/>
+      <char id="char681" states="states383"/>
+      <char id="char682" states="states383"/>
+      <char id="char683" states="states383"/>
+      <char id="char684" states="states383"/>
+      <char id="char685" states="states383"/>
+      <char id="char686" states="states383"/>
+      <char id="char687" states="states383"/>
+      <char id="char688" states="states383"/>
+      <char id="char689" states="states383"/>
+      <char id="char690" states="states383"/>
+      <char id="char691" states="states383"/>
+      <char id="char692" states="states383"/>
+      <char id="char693" states="states383"/>
+      <char id="char694" states="states383"/>
+      <char id="char695" states="states383"/>
+      <char id="char696" states="states383"/>
+      <char id="char697" states="states383"/>
+      <char id="char698" states="states383"/>
+      <char id="char699" states="states383"/>
+      <char id="char700" states="states383"/>
+      <char id="char701" states="states383"/>
+      <char id="char702" states="states383"/>
+      <char id="char703" states="states383"/>
+      <char id="char704" states="states383"/>
+      <char id="char705" states="states383"/>
+      <char id="char706" states="states383"/>
+      <char id="char707" states="states383"/>
+      <char id="char708" states="states383"/>
+      <char id="char709" states="states383"/>
+      <char id="char710" states="states383"/>
+      <char id="char711" states="states383"/>
+      <char id="char712" states="states383"/>
+      <char id="char713" states="states383"/>
+      <char id="char714" states="states383"/>
+      <char id="char715" states="states383"/>
+      <char id="char716" states="states383"/>
+      <char id="char717" states="states383"/>
+      <char id="char718" states="states383"/>
+      <char id="char719" states="states383"/>
+      <char id="char720" states="states383"/>
+      <char id="char721" states="states383"/>
+      <char id="char722" states="states383"/>
+      <char id="char723" states="states383"/>
+      <char id="char724" states="states383"/>
+      <char id="char725" states="states383"/>
+      <char id="char726" states="states383"/>
+      <char id="char727" states="states383"/>
+      <char id="char728" states="states383"/>
+      <char id="char729" states="states383"/>
+      <char id="char730" states="states383"/>
+      <char id="char731" states="states383"/>
+      <char id="char732" states="states383"/>
+      <char id="char733" states="states383"/>
+      <char id="char734" states="states383"/>
+      <char id="char735" states="states383"/>
+      <char id="char736" states="states383"/>
+      <char id="char737" states="states383"/>
+      <char id="char738" states="states383"/>
+      <char id="char739" states="states383"/>
+      <char id="char740" states="states383"/>
+      <char id="char741" states="states383"/>
+      <char id="char742" states="states383"/>
+      <char id="char743" states="states383"/>
+      <char id="char744" states="states383"/>
+      <char id="char745" states="states383"/>
+      <char id="char746" states="states383"/>
+      <char id="char747" states="states383"/>
+      <char id="char748" states="states383"/>
+      <char id="char749" states="states383"/>
+      <char id="char750" states="states383"/>
+      <char id="char751" states="states383"/>
+      <char id="char752" states="states383"/>
+      <char id="char753" states="states383"/>
+      <char id="char754" states="states383"/>
+      <char id="char755" states="states383"/>
+      <char id="char756" states="states383"/>
+      <char id="char757" states="states383"/>
+      <char id="char758" states="states383"/>
+      <char id="char759" states="states383"/>
+      <char id="char760" states="states383"/>
+      <char id="char761" states="states383"/>
+      <char id="char762" states="states383"/>
+      <char id="char763" states="states383"/>
+      <char id="char764" states="states383"/>
+      <char id="char765" states="states383"/>
+      <char id="char766" states="states383"/>
+      <char id="char767" states="states383"/>
+      <char id="char768" states="states383"/>
+      <char id="char769" states="states383"/>
+      <char id="char770" states="states383"/>
+      <char id="char771" states="states383"/>
+      <char id="char772" states="states383"/>
+      <char id="char773" states="states383"/>
+      <char id="char774" states="states383"/>
+      <char id="char775" states="states383"/>
+      <char id="char776" states="states383"/>
+      <char id="char777" states="states383"/>
+      <char id="char778" states="states383"/>
+      <char id="char779" states="states383"/>
+      <char id="char780" states="states383"/>
+      <char id="char781" states="states383"/>
+      <char id="char782" states="states383"/>
+      <char id="char783" states="states383"/>
+      <char id="char784" states="states383"/>
+      <char id="char785" states="states383"/>
+      <char id="char786" states="states383"/>
+      <char id="char787" states="states383"/>
+      <char id="char788" states="states383"/>
+      <char id="char789" states="states383"/>
+      <char id="char790" states="states383"/>
+      <char id="char791" states="states383"/>
+      <char id="char792" states="states383"/>
+      <char id="char793" states="states383"/>
+      <char id="char794" states="states383"/>
+      <char id="char795" states="states383"/>
+      <char id="char796" states="states383"/>
+      <char id="char797" states="states383"/>
+      <char id="char798" states="states383"/>
+      <char id="char799" states="states383"/>
+      <char id="char800" states="states383"/>
+      <char id="char801" states="states383"/>
+      <char id="char802" states="states383"/>
+      <char id="char803" states="states383"/>
+      <char id="char804" states="states383"/>
+      <char id="char805" states="states383"/>
+      <char id="char806" states="states383"/>
+      <char id="char807" states="states383"/>
+      <char id="char808" states="states383"/>
+      <char id="char809" states="states383"/>
+      <char id="char810" states="states383"/>
+      <char id="char811" states="states383"/>
+      <char id="char812" states="states383"/>
+      <char id="char813" states="states383"/>
+      <char id="char814" states="states383"/>
+      <char id="char815" states="states383"/>
+      <char id="char816" states="states383"/>
+      <char id="char817" states="states383"/>
+      <char id="char818" states="states383"/>
+      <char id="char819" states="states383"/>
+      <char id="char820" states="states383"/>
+      <char id="char821" states="states383"/>
+      <char id="char822" states="states383"/>
+      <char id="char823" states="states383"/>
+      <char id="char824" states="states383"/>
+      <char id="char825" states="states383"/>
+      <char id="char826" states="states383"/>
+      <char id="char827" states="states383"/>
+      <char id="char828" states="states383"/>
+      <char id="char829" states="states383"/>
+      <char id="char830" states="states383"/>
+      <char id="char831" states="states383"/>
+      <char id="char832" states="states383"/>
+      <char id="char833" states="states383"/>
+      <char id="char834" states="states383"/>
+      <char id="char835" states="states383"/>
+      <char id="char836" states="states383"/>
+      <char id="char837" states="states383"/>
+      <char id="char838" states="states383"/>
+      <char id="char839" states="states383"/>
+      <char id="char840" states="states383"/>
+      <char id="char841" states="states383"/>
+      <char id="char842" states="states383"/>
+      <char id="char843" states="states383"/>
+      <char id="char844" states="states383"/>
+      <char id="char845" states="states383"/>
+      <char id="char846" states="states383"/>
+      <char id="char847" states="states383"/>
+      <char id="char848" states="states383"/>
+      <char id="char849" states="states383"/>
+      <char id="char850" states="states383"/>
+      <char id="char851" states="states383"/>
+      <char id="char852" states="states383"/>
+      <char id="char853" states="states383"/>
+      <char id="char854" states="states383"/>
+      <char id="char855" states="states383"/>
+      <char id="char856" states="states383"/>
+      <char id="char857" states="states383"/>
+      <char id="char858" states="states383"/>
+      <char id="char859" states="states383"/>
+      <char id="char860" states="states383"/>
+      <char id="char861" states="states383"/>
+      <char id="char862" states="states383"/>
+      <char id="char863" states="states383"/>
+      <char id="char864" states="states383"/>
+      <char id="char865" states="states383"/>
+      <char id="char866" states="states383"/>
+      <char id="char867" states="states383"/>
+      <char id="char868" states="states383"/>
+      <char id="char869" states="states383"/>
+      <char id="char870" states="states383"/>
+      <char id="char871" states="states383"/>
+      <char id="char872" states="states383"/>
+      <char id="char873" states="states383"/>
+      <char id="char874" states="states383"/>
+      <char id="char875" states="states383"/>
+      <char id="char876" states="states383"/>
+      <char id="char877" states="states383"/>
+      <char id="char878" states="states383"/>
+      <char id="char879" states="states383"/>
+      <char id="char880" states="states383"/>
+      <char id="char881" states="states383"/>
+      <char id="char882" states="states383"/>
+      <char id="char883" states="states383"/>
+      <char id="char884" states="states383"/>
+      <char id="char885" states="states383"/>
+      <char id="char886" states="states383"/>
+      <char id="char887" states="states383"/>
+      <char id="char888" states="states383"/>
+      <char id="char889" states="states383"/>
+      <char id="char890" states="states383"/>
+      <char id="char891" states="states383"/>
+      <char id="char892" states="states383"/>
+      <char id="char893" states="states383"/>
+      <char id="char894" states="states383"/>
+      <char id="char895" states="states383"/>
+      <char id="char896" states="states383"/>
+      <char id="char897" states="states383"/>
+      <char id="char898" states="states383"/>
+      <char id="char899" states="states383"/>
+      <char id="char900" states="states383"/>
+      <char id="char901" states="states383"/>
+      <char id="char902" states="states383"/>
+      <char id="char903" states="states383"/>
+      <char id="char904" states="states383"/>
+      <char id="char905" states="states383"/>
+      <char id="char906" states="states383"/>
+      <char id="char907" states="states383"/>
+      <char id="char908" states="states383"/>
+      <char id="char909" states="states383"/>
+      <char id="char910" states="states383"/>
+      <char id="char911" states="states383"/>
+      <char id="char912" states="states383"/>
+      <char id="char913" states="states383"/>
+      <char id="char914" states="states383"/>
+      <char id="char915" states="states383"/>
+      <char id="char916" states="states383"/>
+      <char id="char917" states="states383"/>
+      <char id="char918" states="states383"/>
+      <char id="char919" states="states383"/>
+      <char id="char920" states="states383"/>
+      <char id="char921" states="states383"/>
+      <char id="char922" states="states383"/>
+      <char id="char923" states="states383"/>
+      <char id="char924" states="states383"/>
+      <char id="char925" states="states383"/>
+      <char id="char926" states="states383"/>
+      <char id="char927" states="states383"/>
+      <char id="char928" states="states383"/>
+      <char id="char929" states="states383"/>
+      <char id="char930" states="states383"/>
+      <char id="char931" states="states383"/>
+      <char id="char932" states="states383"/>
+      <char id="char933" states="states383"/>
+      <char id="char934" states="states383"/>
+      <char id="char935" states="states383"/>
+      <char id="char936" states="states383"/>
+      <char id="char937" states="states383"/>
+      <char id="char938" states="states383"/>
+      <char id="char939" states="states383"/>
+      <char id="char940" states="states383"/>
+      <char id="char941" states="states383"/>
+      <char id="char942" states="states383"/>
+      <char id="char943" states="states383"/>
+      <char id="char944" states="states383"/>
+      <char id="char945" states="states383"/>
+      <char id="char946" states="states383"/>
+      <char id="char947" states="states383"/>
+      <char id="char948" states="states383"/>
+      <char id="char949" states="states383"/>
+      <char id="char950" states="states383"/>
+      <char id="char951" states="states383"/>
+      <char id="char952" states="states383"/>
+      <char id="char953" states="states383"/>
+      <char id="char954" states="states383"/>
+      <char id="char955" states="states383"/>
+      <char id="char956" states="states383"/>
+      <char id="char957" states="states383"/>
+      <char id="char958" states="states383"/>
+      <char id="char959" states="states383"/>
+      <char id="char960" states="states383"/>
+      <char id="char961" states="states383"/>
+      <char id="char962" states="states383"/>
+      <char id="char963" states="states383"/>
+      <char id="char964" states="states383"/>
+      <char id="char965" states="states383"/>
+      <char id="char966" states="states383"/>
+      <char id="char967" states="states383"/>
+      <char id="char968" states="states383"/>
+      <char id="char969" states="states383"/>
+      <char id="char970" states="states383"/>
+      <char id="char971" states="states383"/>
+      <char id="char972" states="states383"/>
+      <char id="char973" states="states383"/>
+      <char id="char974" states="states383"/>
+      <char id="char975" states="states383"/>
+      <char id="char976" states="states383"/>
+      <char id="char977" states="states383"/>
+      <char id="char978" states="states383"/>
+      <char id="char979" states="states383"/>
+      <char id="char980" states="states383"/>
+      <char id="char981" states="states383"/>
+      <char id="char982" states="states383"/>
+      <char id="char983" states="states383"/>
+      <char id="char984" states="states383"/>
+      <char id="char985" states="states383"/>
+      <char id="char986" states="states383"/>
+      <char id="char987" states="states383"/>
+      <char id="char988" states="states383"/>
+      <char id="char989" states="states383"/>
+      <char id="char990" states="states383"/>
+      <char id="char991" states="states383"/>
+      <char id="char992" states="states383"/>
+      <char id="char993" states="states383"/>
+      <char id="char994" states="states383"/>
+      <char id="char995" states="states383"/>
+      <char id="char996" states="states383"/>
+      <char id="char997" states="states383"/>
+      <char id="char998" states="states383"/>
+      <char id="char999" states="states383"/>
+      <char id="char1000" states="states383"/>
+      <char id="char1001" states="states383"/>
+      <char id="char1002" states="states383"/>
+      <char id="char1003" states="states383"/>
+      <char id="char1004" states="states383"/>
+      <char id="char1005" states="states383"/>
+      <char id="char1006" states="states383"/>
+      <char id="char1007" states="states383"/>
+      <char id="char1008" states="states383"/>
+      <char id="char1009" states="states383"/>
+      <char id="char1010" states="states383"/>
+      <char id="char1011" states="states383"/>
+      <char id="char1012" states="states383"/>
+      <char id="char1013" states="states383"/>
+      <char id="char1014" states="states383"/>
+      <char id="char1015" states="states383"/>
+      <char id="char1016" states="states383"/>
+      <char id="char1017" states="states383"/>
+      <char id="char1018" states="states383"/>
+      <char id="char1019" states="states383"/>
+      <char id="char1020" states="states383"/>
+      <char id="char1021" states="states383"/>
+      <char id="char1022" states="states383"/>
+      <char id="char1023" states="states383"/>
+      <char id="char1024" states="states383"/>
+      <char id="char1025" states="states383"/>
+      <char id="char1026" states="states383"/>
+      <char id="char1027" states="states383"/>
+      <char id="char1028" states="states383"/>
+      <char id="char1029" states="states383"/>
+      <char id="char1030" states="states383"/>
+      <char id="char1031" states="states383"/>
+      <char id="char1032" states="states383"/>
+      <char id="char1033" states="states383"/>
+      <char id="char1034" states="states383"/>
+      <char id="char1035" states="states383"/>
+      <char id="char1036" states="states383"/>
+      <char id="char1037" states="states383"/>
+      <char id="char1038" states="states383"/>
+      <char id="char1039" states="states383"/>
+      <char id="char1040" states="states383"/>
+      <char id="char1041" states="states383"/>
+      <char id="char1042" states="states383"/>
+      <char id="char1043" states="states383"/>
+      <char id="char1044" states="states383"/>
+      <char id="char1045" states="states383"/>
+      <char id="char1046" states="states383"/>
+      <char id="char1047" states="states383"/>
+      <char id="char1048" states="states383"/>
+      <char id="char1049" states="states383"/>
+      <char id="char1050" states="states383"/>
+      <char id="char1051" states="states383"/>
+      <char id="char1052" states="states383"/>
+      <char id="char1053" states="states383"/>
+      <char id="char1054" states="states383"/>
+      <char id="char1055" states="states383"/>
+      <char id="char1056" states="states383"/>
+      <char id="char1057" states="states383"/>
+      <char id="char1058" states="states383"/>
+      <char id="char1059" states="states383"/>
+      <char id="char1060" states="states383"/>
+      <char id="char1061" states="states383"/>
+      <char id="char1062" states="states383"/>
+      <char id="char1063" states="states383"/>
+      <char id="char1064" states="states383"/>
+      <char id="char1065" states="states383"/>
+      <char id="char1066" states="states383"/>
+      <char id="char1067" states="states383"/>
+      <char id="char1068" states="states383"/>
+      <char id="char1069" states="states383"/>
+      <char id="char1070" states="states383"/>
+      <char id="char1071" states="states383"/>
+      <char id="char1072" states="states383"/>
+      <char id="char1073" states="states383"/>
+      <char id="char1074" states="states383"/>
+      <char id="char1075" states="states383"/>
+      <char id="char1076" states="states383"/>
+      <char id="char1077" states="states383"/>
+      <char id="char1078" states="states383"/>
+      <char id="char1079" states="states383"/>
+      <char id="char1080" states="states383"/>
+      <char id="char1081" states="states383"/>
+      <char id="char1082" states="states383"/>
+      <char id="char1083" states="states383"/>
+      <char id="char1084" states="states383"/>
+      <char id="char1085" states="states383"/>
+      <char id="char1086" states="states383"/>
+      <char id="char1087" states="states383"/>
+      <char id="char1088" states="states383"/>
+      <char id="char1089" states="states383"/>
+      <char id="char1090" states="states383"/>
+      <char id="char1091" states="states383"/>
+      <char id="char1092" states="states383"/>
+      <char id="char1093" states="states383"/>
+      <char id="char1094" states="states383"/>
+      <char id="char1095" states="states383"/>
+      <char id="char1096" states="states383"/>
+      <char id="char1097" states="states383"/>
+      <char id="char1098" states="states383"/>
+      <char id="char1099" states="states383"/>
+      <char id="char1100" states="states383"/>
+      <char id="char1101" states="states383"/>
+      <char id="char1102" states="states383"/>
+      <char id="char1103" states="states383"/>
+      <char id="char1104" states="states383"/>
+      <char id="char1105" states="states383"/>
+      <char id="char1106" states="states383"/>
+      <char id="char1107" states="states383"/>
+      <char id="char1108" states="states383"/>
+      <char id="char1109" states="states383"/>
+      <char id="char1110" states="states383"/>
+      <char id="char1111" states="states383"/>
+      <char id="char1112" states="states383"/>
+      <char id="char1113" states="states383"/>
+      <char id="char1114" states="states383"/>
+      <char id="char1115" states="states383"/>
+      <char id="char1116" states="states383"/>
+      <char id="char1117" states="states383"/>
+      <char id="char1118" states="states383"/>
+      <char id="char1119" states="states383"/>
+      <char id="char1120" states="states383"/>
+      <char id="char1121" states="states383"/>
+      <char id="char1122" states="states383"/>
+      <char id="char1123" states="states383"/>
+      <char id="char1124" states="states383"/>
+      <char id="char1125" states="states383"/>
+      <char id="char1126" states="states383"/>
+      <char id="char1127" states="states383"/>
+      <char id="char1128" states="states383"/>
+      <char id="char1129" states="states383"/>
+      <char id="char1130" states="states383"/>
+      <char id="char1131" states="states383"/>
+      <char id="char1132" states="states383"/>
+      <char id="char1133" states="states383"/>
+      <char id="char1134" states="states383"/>
+      <char id="char1135" states="states383"/>
+      <char id="char1136" states="states383"/>
+      <char id="char1137" states="states383"/>
+      <char id="char1138" states="states383"/>
+      <char id="char1139" states="states383"/>
+      <char id="char1140" states="states383"/>
+      <char id="char1141" states="states383"/>
+      <char id="char1142" states="states383"/>
+      <char id="char1143" states="states383"/>
+      <char id="char1144" states="states383"/>
+      <char id="char1145" states="states383"/>
+      <char id="char1146" states="states383"/>
+      <char id="char1147" states="states383"/>
+      <char id="char1148" states="states383"/>
+      <char id="char1149" states="states383"/>
+      <char id="char1150" states="states383"/>
+      <char id="char1151" states="states383"/>
+      <char id="char1152" states="states383"/>
+      <char id="char1153" states="states383"/>
+      <char id="char1154" states="states383"/>
+      <char id="char1155" states="states383"/>
+      <char id="char1156" states="states383"/>
+      <char id="char1157" states="states383"/>
+      <char id="char1158" states="states383"/>
+      <char id="char1159" states="states383"/>
+      <char id="char1160" states="states383"/>
+      <char id="char1161" states="states383"/>
+      <char id="char1162" states="states383"/>
+      <char id="char1163" states="states383"/>
+      <char id="char1164" states="states383"/>
+      <char id="char1165" states="states383"/>
+      <char id="char1166" states="states383"/>
+      <char id="char1167" states="states383"/>
+      <char id="char1168" states="states383"/>
+      <char id="char1169" states="states383"/>
+      <char id="char1170" states="states383"/>
+      <char id="char1171" states="states383"/>
+      <char id="char1172" states="states383"/>
+      <char id="char1173" states="states383"/>
+      <char id="char1174" states="states383"/>
+      <char id="char1175" states="states383"/>
+      <char id="char1176" states="states383"/>
+      <char id="char1177" states="states383"/>
+      <char id="char1178" states="states383"/>
+      <char id="char1179" states="states383"/>
+      <char id="char1180" states="states383"/>
+      <char id="char1181" states="states383"/>
+      <char id="char1182" states="states383"/>
+      <char id="char1183" states="states383"/>
+      <char id="char1184" states="states383"/>
+      <char id="char1185" states="states383"/>
+      <char id="char1186" states="states383"/>
+      <char id="char1187" states="states383"/>
+      <char id="char1188" states="states383"/>
+      <char id="char1189" states="states383"/>
+      <char id="char1190" states="states383"/>
+      <char id="char1191" states="states383"/>
+      <char id="char1192" states="states383"/>
+      <char id="char1193" states="states383"/>
+      <char id="char1194" states="states383"/>
+      <char id="char1195" states="states383"/>
+      <char id="char1196" states="states383"/>
+      <char id="char1197" states="states383"/>
+      <char id="char1198" states="states383"/>
+      <char id="char1199" states="states383"/>
+      <char id="char1200" states="states383"/>
+      <char id="char1201" states="states383"/>
+      <char id="char1202" states="states383"/>
+      <char id="char1203" states="states383"/>
+      <char id="char1204" states="states383"/>
+      <char id="char1205" states="states383"/>
+      <char id="char1206" states="states383"/>
+      <char id="char1207" states="states383"/>
+      <char id="char1208" states="states383"/>
+      <char id="char1209" states="states383"/>
+      <char id="char1210" states="states383"/>
+      <char id="char1211" states="states383"/>
+      <char id="char1212" states="states383"/>
+      <char id="char1213" states="states383"/>
+      <char id="char1214" states="states383"/>
+      <char id="char1215" states="states383"/>
+      <char id="char1216" states="states383"/>
+      <char id="char1217" states="states383"/>
+      <char id="char1218" states="states383"/>
+      <char id="char1219" states="states383"/>
+      <char id="char1220" states="states383"/>
+      <char id="char1221" states="states383"/>
+      <char id="char1222" states="states383"/>
+      <char id="char1223" states="states383"/>
+      <char id="char1224" states="states383"/>
+      <char id="char1225" states="states383"/>
+      <char id="char1226" states="states383"/>
+      <char id="char1227" states="states383"/>
+      <char id="char1228" states="states383"/>
+      <char id="char1229" states="states383"/>
+      <char id="char1230" states="states383"/>
+      <char id="char1231" states="states383"/>
+      <char id="char1232" states="states383"/>
+      <char id="char1233" states="states383"/>
+      <char id="char1234" states="states383"/>
+      <char id="char1235" states="states383"/>
+      <char id="char1236" states="states383"/>
+      <char id="char1237" states="states383"/>
+      <char id="char1238" states="states383"/>
+      <char id="char1239" states="states383"/>
+      <char id="char1240" states="states383"/>
+      <char id="char1241" states="states383"/>
+      <char id="char1242" states="states383"/>
+      <char id="char1243" states="states383"/>
+      <char id="char1244" states="states383"/>
+      <char id="char1245" states="states383"/>
+      <char id="char1246" states="states383"/>
+      <char id="char1247" states="states383"/>
+      <char id="char1248" states="states383"/>
+      <char id="char1249" states="states383"/>
+      <char id="char1250" states="states383"/>
+      <char id="char1251" states="states383"/>
+      <char id="char1252" states="states383"/>
+      <char id="char1253" states="states383"/>
+      <char id="char1254" states="states383"/>
+      <char id="char1255" states="states383"/>
+      <char id="char1256" states="states383"/>
+      <char id="char1257" states="states383"/>
+      <char id="char1258" states="states383"/>
+      <char id="char1259" states="states383"/>
+      <char id="char1260" states="states383"/>
+      <char id="char1261" states="states383"/>
+      <char id="char1262" states="states383"/>
+      <char id="char1263" states="states383"/>
+      <char id="char1264" states="states383"/>
+      <char id="char1265" states="states383"/>
+      <char id="char1266" states="states383"/>
+      <char id="char1267" states="states383"/>
+      <char id="char1268" states="states383"/>
+      <char id="char1269" states="states383"/>
+      <char id="char1270" states="states383"/>
+      <char id="char1271" states="states383"/>
+      <char id="char1272" states="states383"/>
+      <char id="char1273" states="states383"/>
+      <char id="char1274" states="states383"/>
+      <char id="char1275" states="states383"/>
+      <char id="char1276" states="states383"/>
+      <char id="char1277" states="states383"/>
+      <char id="char1278" states="states383"/>
+      <char id="char1279" states="states383"/>
+      <char id="char1280" states="states383"/>
+      <char id="char1281" states="states383"/>
+      <char id="char1282" states="states383"/>
+      <char id="char1283" states="states383"/>
+      <char id="char1284" states="states383"/>
+      <char id="char1285" states="states383"/>
+      <char id="char1286" states="states383"/>
+      <char id="char1287" states="states383"/>
+      <char id="char1288" states="states383"/>
+      <char id="char1289" states="states383"/>
+      <char id="char1290" states="states383"/>
+      <char id="char1291" states="states383"/>
+      <char id="char1292" states="states383"/>
+      <char id="char1293" states="states383"/>
+      <char id="char1294" states="states383"/>
+      <char id="char1295" states="states383"/>
+      <char id="char1296" states="states383"/>
+      <char id="char1297" states="states383"/>
+      <char id="char1298" states="states383"/>
+      <char id="char1299" states="states383"/>
+      <char id="char1300" states="states383"/>
+      <char id="char1301" states="states383"/>
+      <char id="char1302" states="states383"/>
+      <char id="char1303" states="states383"/>
+      <char id="char1304" states="states383"/>
+      <char id="char1305" states="states383"/>
+      <char id="char1306" states="states383"/>
+      <char id="char1307" states="states383"/>
+      <char id="char1308" states="states383"/>
+      <char id="char1309" states="states383"/>
+      <char id="char1310" states="states383"/>
+      <char id="char1311" states="states383"/>
+      <char id="char1312" states="states383"/>
+      <char id="char1313" states="states383"/>
+      <char id="char1314" states="states383"/>
+      <char id="char1315" states="states383"/>
+      <char id="char1316" states="states383"/>
+      <char id="char1317" states="states383"/>
+      <char id="char1318" states="states383"/>
+      <char id="char1319" states="states383"/>
+      <char id="char1320" states="states383"/>
+      <char id="char1321" states="states383"/>
+      <char id="char1322" states="states383"/>
+      <char id="char1323" states="states383"/>
+      <char id="char1324" states="states383"/>
+      <char id="char1325" states="states383"/>
+      <char id="char1326" states="states383"/>
+      <char id="char1327" states="states383"/>
+      <char id="char1328" states="states383"/>
+      <char id="char1329" states="states383"/>
+      <char id="char1330" states="states383"/>
+      <char id="char1331" states="states383"/>
+      <char id="char1332" states="states383"/>
+      <char id="char1333" states="states383"/>
+      <char id="char1334" states="states383"/>
+      <char id="char1335" states="states383"/>
+      <char id="char1336" states="states383"/>
+      <char id="char1337" states="states383"/>
+      <char id="char1338" states="states383"/>
+      <char id="char1339" states="states383"/>
+      <char id="char1340" states="states383"/>
+      <char id="char1341" states="states383"/>
+      <char id="char1342" states="states383"/>
+      <char id="char1343" states="states383"/>
+      <char id="char1344" states="states383"/>
+      <char id="char1345" states="states383"/>
+      <char id="char1346" states="states383"/>
+      <char id="char1347" states="states383"/>
+      <char id="char1348" states="states383"/>
+      <char id="char1349" states="states383"/>
+      <char id="char1350" states="states383"/>
+      <char id="char1351" states="states383"/>
+      <char id="char1352" states="states383"/>
+      <char id="char1353" states="states383"/>
+      <char id="char1354" states="states383"/>
+      <char id="char1355" states="states383"/>
+      <char id="char1356" states="states383"/>
+      <char id="char1357" states="states383"/>
+      <char id="char1358" states="states383"/>
+      <char id="char1359" states="states383"/>
+      <char id="char1360" states="states383"/>
+      <char id="char1361" states="states383"/>
+      <char id="char1362" states="states383"/>
+      <char id="char1363" states="states383"/>
+      <char id="char1364" states="states383"/>
+      <char id="char1365" states="states383"/>
+      <char id="char1366" states="states383"/>
+      <char id="char1367" states="states383"/>
+      <char id="char1368" states="states383"/>
+      <char id="char1369" states="states383"/>
+      <char id="char1370" states="states383"/>
+      <char id="char1371" states="states383"/>
+      <char id="char1372" states="states383"/>
+      <char id="char1373" states="states383"/>
+      <char id="char1374" states="states383"/>
+      <char id="char1375" states="states383"/>
+      <char id="char1376" states="states383"/>
+      <char id="char1377" states="states383"/>
+      <char id="char1378" states="states383"/>
+      <char id="char1379" states="states383"/>
+      <char id="char1380" states="states383"/>
+      <char id="char1381" states="states383"/>
+      <char id="char1382" states="states383"/>
+      <char id="char1383" states="states383"/>
+      <char id="char1384" states="states383"/>
+      <char id="char1385" states="states383"/>
+      <char id="char1386" states="states383"/>
+      <char id="char1387" states="states383"/>
+      <char id="char1388" states="states383"/>
+      <char id="char1389" states="states383"/>
+      <char id="char1390" states="states383"/>
+      <char id="char1391" states="states383"/>
+      <char id="char1392" states="states383"/>
+      <char id="char1393" states="states383"/>
+      <char id="char1394" states="states383"/>
+      <char id="char1395" states="states383"/>
+      <char id="char1396" states="states383"/>
+      <char id="char1397" states="states383"/>
+      <char id="char1398" states="states383"/>
+      <char id="char1399" states="states383"/>
+      <char id="char1400" states="states383"/>
+      <char id="char1401" states="states383"/>
+      <char id="char1402" states="states383"/>
+      <char id="char1403" states="states383"/>
+      <char id="char1404" states="states383"/>
+      <char id="char1405" states="states383"/>
+      <char id="char1406" states="states383"/>
+      <char id="char1407" states="states383"/>
+      <char id="char1408" states="states383"/>
+      <char id="char1409" states="states383"/>
+      <char id="char1410" states="states383"/>
+      <char id="char1411" states="states383"/>
+      <char id="char1412" states="states383"/>
+      <char id="char1413" states="states383"/>
+      <char id="char1414" states="states383"/>
+      <char id="char1415" states="states383"/>
+      <char id="char1416" states="states383"/>
+      <char id="char1417" states="states383"/>
+      <char id="char1418" states="states383"/>
+      <char id="char1419" states="states383"/>
+      <char id="char1420" states="states383"/>
+      <char id="char1421" states="states383"/>
+      <char id="char1422" states="states383"/>
+      <char id="char1423" states="states383"/>
+      <char id="char1424" states="states383"/>
+      <char id="char1425" states="states383"/>
+      <char id="char1426" states="states383"/>
+      <char id="char1427" states="states383"/>
+      <char id="char1428" states="states383"/>
+      <char id="char1429" states="states383"/>
+      <char id="char1430" states="states383"/>
+      <char id="char1431" states="states383"/>
+      <char id="char1432" states="states383"/>
+      <char id="char1433" states="states383"/>
+      <char id="char1434" states="states383"/>
+      <char id="char1435" states="states383"/>
+      <char id="char1436" states="states383"/>
+      <char id="char1437" states="states383"/>
+      <char id="char1438" states="states383"/>
+      <char id="char1439" states="states383"/>
+      <char id="char1440" states="states383"/>
+      <char id="char1441" states="states383"/>
+      <char id="char1442" states="states383"/>
+      <char id="char1443" states="states383"/>
+      <char id="char1444" states="states383"/>
+      <char id="char1445" states="states383"/>
+      <char id="char1446" states="states383"/>
+      <char id="char1447" states="states383"/>
+      <char id="char1448" states="states383"/>
+      <char id="char1449" states="states383"/>
+      <char id="char1450" states="states383"/>
+      <char id="char1451" states="states383"/>
+      <char id="char1452" states="states383"/>
+      <char id="char1453" states="states383"/>
+      <char id="char1454" states="states383"/>
+      <char id="char1455" states="states383"/>
+      <char id="char1456" states="states383"/>
+      <char id="char1457" states="states383"/>
+      <char id="char1458" states="states383"/>
+      <char id="char1459" states="states383"/>
+      <char id="char1460" states="states383"/>
+      <char id="char1461" states="states383"/>
+      <char id="char1462" states="states383"/>
+      <char id="char1463" states="states383"/>
+      <char id="char1464" states="states383"/>
+      <char id="char1465" states="states383"/>
+      <char id="char1466" states="states383"/>
+      <char id="char1467" states="states383"/>
+      <char id="char1468" states="states383"/>
+      <char id="char1469" states="states383"/>
+      <char id="char1470" states="states383"/>
+      <char id="char1471" states="states383"/>
+      <char id="char1472" states="states383"/>
+      <char id="char1473" states="states383"/>
+      <char id="char1474" states="states383"/>
+      <char id="char1475" states="states383"/>
+      <char id="char1476" states="states383"/>
+      <char id="char1477" states="states383"/>
+      <char id="char1478" states="states383"/>
+      <char id="char1479" states="states383"/>
+      <char id="char1480" states="states383"/>
+      <char id="char1481" states="states383"/>
+      <char id="char1482" states="states383"/>
+      <char id="char1483" states="states383"/>
+      <char id="char1484" states="states383"/>
+      <char id="char1485" states="states383"/>
+      <char id="char1486" states="states383"/>
+      <char id="char1487" states="states383"/>
+      <char id="char1488" states="states383"/>
+      <char id="char1489" states="states383"/>
+      <char id="char1490" states="states383"/>
+      <char id="char1491" states="states383"/>
+      <char id="char1492" states="states383"/>
+      <char id="char1493" states="states383"/>
+      <char id="char1494" states="states383"/>
+      <char id="char1495" states="states383"/>
+      <char id="char1496" states="states383"/>
+      <char id="char1497" states="states383"/>
+      <char id="char1498" states="states383"/>
+      <char id="char1499" states="states383"/>
+      <char id="char1500" states="states383"/>
+      <char id="char1501" states="states383"/>
+      <char id="char1502" states="states383"/>
+      <char id="char1503" states="states383"/>
+      <char id="char1504" states="states383"/>
+      <char id="char1505" states="states383"/>
+      <char id="char1506" states="states383"/>
+      <char id="char1507" states="states383"/>
+      <char id="char1508" states="states383"/>
+      <char id="char1509" states="states383"/>
+      <char id="char1510" states="states383"/>
+      <char id="char1511" states="states383"/>
+      <char id="char1512" states="states383"/>
+      <char id="char1513" states="states383"/>
+      <char id="char1514" states="states383"/>
+      <char id="char1515" states="states383"/>
+      <char id="char1516" states="states383"/>
+      <char id="char1517" states="states383"/>
+      <char id="char1518" states="states383"/>
+      <char id="char1519" states="states383"/>
+      <char id="char1520" states="states383"/>
+      <char id="char1521" states="states383"/>
+      <char id="char1522" states="states383"/>
+      <char id="char1523" states="states383"/>
+      <char id="char1524" states="states383"/>
+      <char id="char1525" states="states383"/>
+      <char id="char1526" states="states383"/>
+      <char id="char1527" states="states383"/>
+      <char id="char1528" states="states383"/>
+      <char id="char1529" states="states383"/>
+      <char id="char1530" states="states383"/>
+      <char id="char1531" states="states383"/>
+      <char id="char1532" states="states383"/>
+      <char id="char1533" states="states383"/>
+      <char id="char1534" states="states383"/>
+      <char id="char1535" states="states383"/>
+      <char id="char1536" states="states383"/>
+      <char id="char1537" states="states383"/>
+      <char id="char1538" states="states383"/>
+      <char id="char1539" states="states383"/>
+      <char id="char1540" states="states383"/>
+      <char id="char1541" states="states383"/>
+      <char id="char1542" states="states383"/>
+      <char id="char1543" states="states383"/>
+      <char id="char1544" states="states383"/>
+      <char id="char1545" states="states383"/>
+      <char id="char1546" states="states383"/>
+      <char id="char1547" states="states383"/>
+      <char id="char1548" states="states383"/>
+      <char id="char1549" states="states383"/>
+      <char id="char1550" states="states383"/>
+      <char id="char1551" states="states383"/>
+      <char id="char1552" states="states383"/>
+      <char id="char1553" states="states383"/>
+      <char id="char1554" states="states383"/>
+      <char id="char1555" states="states383"/>
+      <char id="char1556" states="states383"/>
+      <char id="char1557" states="states383"/>
+      <char id="char1558" states="states383"/>
+      <char id="char1559" states="states383"/>
+      <char id="char1560" states="states383"/>
+      <char id="char1561" states="states383"/>
+      <char id="char1562" states="states383"/>
+    </format>
+    <matrix>
+      <row id="row1563" otu="Tl126179">
+        <seq>AGTTCTGAAACGGGTTGTAGCTGGCCTTA-----CGAGGCATGTGCACGCCCTGCTCATCCACTCT-ACACCTGTGCACCATCTGTAGGTCGGTTTGGGTTCGGATGCTTCGCGGCGTTCGGGCTCGGGCCTTCCTATGTACT-TCACACACGCTTTAGTAT-CAGAATGTAATTGCGA----TAAAACGCACCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATCATCAACCCATATGTCCTTGTGTCG--GATGGGCTTGGA-TTTGGAGGCTTATGCCGGCCCTC-GTC--GGTCGGCTCCTCTTGAATGCATTAGCTCGATTCCTTGCGGATCGGCTCCCGGTGTGATAATTGTCTACGCCGTGACCGT-GAAGC----GTTTGGCGAGCTTCGAACCGTCCTATGGACAAACTTATATCTTGACATCTGACCTCCGAGGTGCGTGTCAAAATCAAGACGACGTTGCCCTCCATTAACAGCAGTCGTGACTTGTTAGCCCTACAACGCGACACTCTCTGTGCATCAACTCGTCGAGAACTCTGACCAGACGTTCTGCATTGATAACGAGGCATTATATGATATATGCTTCAGAACCCTCAAGCTCACTACACCAACTTATGGTGACCTTAACCACCTTGTATCGATTGTCATGTCCGGTATCACGACTTGCTTGCGTTTCCCTGGTCAGCTGAATTCTGACTTGCGGAAGTTGGCTGTCAACATGGGTAATGCTTTCCTTCAGACTGGCCTAGATGCGTT-TTTCTCATTCGATGTTTTCTTTTGCAGTTCCCTTCCCTCGTCTTCATTTCTTCATGACCGGCTTCGCGCCTTTGACCGCTCGGGGTAGCCAGCAATACCGCGCGGTCACCGTCCCTGAGCTGACGCAGCAAATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCAGGCATGGCCGCTACCTCACTGTAGGTGTTAATGTTTCTTCT----GTGTTCCG-------TCATCTGAAACCTGTTCCATAGGTTGCTGC</seq>
+      </row>
+      <row id="row1564" otu="Tl261">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTTACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCACTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTAA-GTTCTCACTT-GATTCCTTGTGATATAACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCC?TATTACG-GAGCGTACCAATCTGATCTATTTGTTACATTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1565" otu="Tl238">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCGCTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTAA-GTTCTCACTT-GATTCCTTGTGATATAACACTTATGATTGACTGTTAAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGATCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCTCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACATTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1566" otu="Tl282">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCGCTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGATCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCTCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACATTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1567" otu="Tl266">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCGCTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTAA-GTTCTCACTT-GATTCCTTGTGATATAACACTTATGATTGACTGTTAAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGATCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCTCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACGTTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1568" otu="Tl280">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGATATTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGC?AGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGA?AACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GACGCCTTGTGACATGACACTTATCATTGACTGTTAAAAAAT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTTTATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1569" otu="Tl257">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATATGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTTACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGC?CTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCTCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACGTTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1570" otu="Tl260">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCA?CAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGC?CTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCAT?TCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTAA-GTTCTCACTT-GATTCCTTGTGATATAACACTTATGATTGACTGTTAAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTAC?TTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1571" otu="Tl270">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCGCTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGATCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCTCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACATTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1572" otu="Tl247">
+        <seq>AGTTCAGAAATGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTTACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCGCTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTCAAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCTTATTACG-GAGTGTACCAATCTGATCTATTTGTTACGTTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1573" otu="Tl256">
+        <seq>AGTTCAGAAATGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCGCTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATAACACTTATGATTGACTGTTAAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCTCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACGTTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1574" otu="Tl281">
+        <seq>AGTACAGAAAAGGGTTGTCGCTGGCCTCAAAATTCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCGGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGCGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCCACGGGACAATTCAATATGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTTACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCGCTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTCAAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACGTTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1575" otu="Tl244">
+        <seq>AGTTCAGA?AAGGGTTGTCGCTGGCCTCAAAATTCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGCGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGCGGTCGTTGAAGCCTCAGTTGGGAGAGCT-ATAATCGTCCCCCACGGGACAAT-GAATTTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTTACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCGCTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTCAAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACGTTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1576" otu="Tl263">
+        <seq>AGTTCAGAAATGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCGGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCACATGTTACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCTGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCACTGTATGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGTTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACATTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1577" otu="Tl279">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGCTCATGCCGGTCCCC-ATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTTACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCGCTGTACGATATTTGCTTCCGGACACTGAAGCTGACGACACCCACATATGGCGATCTGAACCACCTCATTTCCATTGTCATGTCCGGCATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGACCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTTTCACTT-GATTCCTTGTGATATGGCACTTATGATTGACTGTTGAAATTC-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTATCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCGAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCCTATCACG-GAGCGTATCAATCTGATCTATTTGTT?C?TTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1578" otu="Tl236">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATA-GACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATGCCTTGTGACATGACACTTATCATTGACTGTTAAAAATT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAACAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCT--TTTTATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1579" otu="Tl252">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACATTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATGCCTTGTGACATGACACTTATCATTGACTGTTAAAAATT-TAGTTCCCTTCCCCCGTCTCCACTT?TTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAACAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGG?TGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCT--TTTTATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1580" otu="Tl272">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATT--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATGCCTTGTGACATGACACTTATCATTGACTGTTAAAAATT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTATATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1581" otu="Tl249">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCACTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGTTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGACATGACACTTATCATTGACTGTTAAAAATT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTTTATAGGTTGCTGC</seq>
+      </row>
+      <row id="row1582" otu="Tl275">
+        <seq>AGTTCAGAAATGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATC?GGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCA?CAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGC?CTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTC?CCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTAC?TTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1583" otu="Tl274">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCACTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTAAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCTCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACGTTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1584" otu="Tl233">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCACTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCTCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACGTTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1585" otu="Tl258">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCGCTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATAACACTTATGATTGACTGTTAAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACATTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1586" otu="Tl254">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGC?CTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATAACACTTATGATTGACTGTTAAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACATTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1587" otu="Tl269">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGATATTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGCG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCTTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATGCCTTGTGACATGACACTTATCATTGACTGTTAAAAATT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTTTATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1588" otu="Tl242">
+        <seq>AGTTCAGAAATGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCGGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCGCTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGATCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCTCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACGTTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1589" otu="Tl239">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCGCTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATCTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTAA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTAAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACGTTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1590" otu="Tl246">
+        <seq>AGTTCAGAAATGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCGGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCGCTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATCTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCTCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACGTTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1591" otu="Tl259">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCACATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCACTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCCTATTACG-GAGCGTACCAATCTGATCTATTTGTTACATTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1592" otu="Tl277">
+        <seq>AGTACAGAAATGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCGGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTTACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCACTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCTCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACATTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1593" otu="Tl243">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCGCTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCTTATTACG-GAGCGTACCAATCTGATCTATTTGTTACGTTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1594" otu="Tl250">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATTCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGACGTGCACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGCGGTCGTTGAAGCCTCAGTCGGGAGAGCTCATAATCGTCCCTTC-GGGACAATCGAATATTACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTTACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCACTTTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATCTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCCTATTACG-GAGCGTACCAATCTGATCTATTTGTTACATTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1595" otu="Tl237">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATCGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTTACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCACTTTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATCTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCCTATTACG-GAGCGTACCAATCTGATCTATTTGTTACATTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1596" otu="Tl264">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATTCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCGGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATCGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGACGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGCGGTCGTTGAAGCCTCGGTCGGGAGAGCTTATAATCGTCCCTTC-GGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CGTTTCAAATGTTACGTTGGAGAAAATC--TGACGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCACTTTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATCTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCCTATTACG-GAGCGTACCAATCTGATCTATTTGTTACATTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1597" otu="Tl253">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATC?GGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATAGTCCCCCACGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CGTTTCACATGTCACGTTGGAGAAAATC--TGA?GACCGTTGATC?T-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCACTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTAAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCCTATTACG-GAGCGTACCAATCTGATCTATTTGTTAC?TTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1598" otu="Tl232">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATAGTCCCCTCCGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CATTTCACATGTCACGTTGGATAAAATC--TGATGACCGTTGATCAT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAA?GAGGCACTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACATTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCCTATTACG-GAGCGTACCAATCTGATCTATTTGTTACATTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1599" otu="Tl245">
+        <seq>AGTTCAGAAAAGGGTTGTCGCTGGCCTCAAAATTCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCGGGTCCCTCGCGGGGTCGGGTTCTGCGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACATCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTTGGGCGAGCTCACAATAGTCCCCTACGGGACAATTCAATCTGACATCTGACCTCCGAGGTCTGTG-CATTTCACATGTCACGTTGGATAAAATC--TGATGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCATCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCACTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAACCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGCTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGAAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGATATGACACTTATGATTGACTGTTGAAATTT-TAGTCCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTC?GACCCCCGGCATGGGCGATACCTGACCGTATGCGGCTCCCCCTATTACG-GAGCGTACCAATCTGATCTATTTGTTACGTTTTTCATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1600" otu="Tl262">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GA?GCCTTGTGACATGACACTTATCATTGACTGTTAAAAATT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTATATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1601" otu="Tl235">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGATATTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGCG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATGCCTTGTGACATGACACTTATCATTGACTGTTAAAAATT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTTTATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1602" otu="Tl276">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGATATTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGACAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATGCCTTGTGACATGACACTTATCATTGACTGTTAAAAATT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACAAGAGCGTACCAATCTGAAGTATCTGTTGCCTATTATAAAGGTTGCCGC</seq>
+      </row>
+      <row id="row1603" otu="Tl273">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGATATTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GACGCCTTGTGACATGACACTTATCATTGACTGTTAAAAAAT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTTTATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1604" otu="Tl265">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGATATTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GACGCCTTGTGACATGACACTTATCATTGACTGTTAAAAAAT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTTTATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1605" otu="Tl271">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCACTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGTTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGACATGACACTTATCATTGACTGTTAAAAATT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTTTATAGGTTGCTGC</seq>
+      </row>
+      <row id="row1606" otu="Tl251">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGATATTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATGCCTTGTGACATGACACTTATCATTGACTGTTAAAAATT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACTGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTATATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1607" otu="Tl267">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGATATTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GACGCCTTGTGACATGACACTTATCATTGACTGTTAAAAATT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTTTATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1608" otu="Tl278">
+        <seq>AGTACAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGATATTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGA?AACGAGGCACTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGATCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGTTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATTCCTTGTGACATGACACTTATCATTGACTGTTAAAAATT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTTTATAGGTTGCTGC</seq>
+      </row>
+      <row id="row1609" otu="Tl255">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GACGCCTTGTGACATGACACTTATCATTGACTGTTAAAAAAT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTTTATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1610" otu="Tl240">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATGCCTTGTGACATGACACTTATCATTGACTGTTAAAAATT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCT--TTTTATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1611" otu="Tl231">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GACGCCTTGTGACATGACACTTATCATTGACTGTTAAAAAAT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTTTATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1612" otu="Tl234">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GACGCCTTGTGACATGACACTTATCATTGACTGTTAAAAAAT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTTTATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1613" otu="Tl241">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGACTTTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATT--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGACAACGAGGCCTTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGACCTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGCTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GATGCCTTGTGACATGACACTTATCATTGACTGTTAAAAATT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTTTATAGGTTGCCGC</seq>
+      </row>
+      <row id="row1614" otu="Tl248">
+        <seq>AGTTCAGAAAAGGGTTGTAGCTGGCCTCAAA-TCCGGGGCATGTGCACACCCTGCTCATCCACTCTCACACCTGTGCACTTTCTGTAGGTCGGTTCGGGATCTGGTCCCTCGCGGGGTCGGGTTCTGTGCCTTCCTATGTACAATCACAAACGCTTCAGTATTCAGAATGTCATTGCGATAATTAAAACGCATCTTATACAACTTTCAGCAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCGAGGAGCATGCCTGTTTGAGTGTCATGGAATTCTCAACCCACACGTCCTTGTGATGTGGACGGGCTTGGATATTGGAGGTTTCTGCCGGCCCCCCATTCGGGTCGGCTCCTCTGGAATGCATTAGCTCCATCCCTTGCGGATCGGCTCTCGGTGTGATAATTGTCTACGCCGTGGTCGTTGAAGCCTCAGTCGGGCGAGCTTATAATCGTCCCCTCCGGGACAATCGAATATGACATCTGACCTCCGAGGTCTGTG-CATTTCAAATGTCACGTTGGAGAAAATC--TGACGACCGTTGATCGT-AGCCCTACAACGCAACCCTCTCCGTGCACCAACTGGTCGAGAACTCTGATGAGACTTTCTGCATTGATAACGAGGCATTGTACGACATTTGCTTCCGGACACTGAAGCTGACGACACCGACATACGGCGA?CTGAATCACCTCATTTCCATCGTCATGTCCGGTATTACAACTTGTTTGCGTTTCCCTGGTCAGTTGAACTCCGATCTCCGGAAGTTGGCTGTCAACATGGGTGA-GTTCTCACTT-GA??CCTTGTGACATGACACTTATCATTGACTGTTAAAAAAT-TAGTTCCCTTCCCCCGTCTCCACTTCTTCATGACCGGTTTCGCGCCCTTGACTGCGCGCGGCAGCCAGCAGTACCGTGCTGTCACTGTACCCGAGCTGACTCAACAGATGTTCGATGCCAAGAACATGATGGCTGCGTCCGACCCCCGGCATGGCCGATACCTCACTGTATGCAACATCC--TAGCACA-GAGCGTACCAATCTGATGTATCTGTTGCCTATTTTATAGGTTGCCGC</seq>
+      </row>
+    </matrix>
+  </characters>
 </nex:nexml>

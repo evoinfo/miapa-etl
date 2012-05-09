@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <heading>OTUs contained within this NeXML file:</heading>
-<MIAPA-OTU>Grifola sordulenta</MIAPA-OTU>	
+<MIAPA-OTU>Grifola sordulenta</MIAPA-OTU>
+<MIAPA-OTU>Grifola frondosa WC836</MIAPA-OTU>
+<MIAPA-OTU>Grifola frondosa WC835</MIAPA-OTU>
+<MIAPA-OTU>Arbitrary OTU name</MIAPA-OTU>	
+  <heading>Character types in this NeXML file:</heading>
+<MIAPA-CharType>
+   <MIAPA-CharLabel>ITS and BT</MIAPA-CharLabel>
+</MIAPA-CharType>
 

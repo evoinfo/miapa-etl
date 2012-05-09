@@ -7,5 +7,5 @@
 <otu label="otu2"/>
 <otu label="otu3"/>
 </otus>
-<characters type="DNA sequence"/>
+<characters type="DNA sequence" label="arb char label"/>
 </nex:nexml>
