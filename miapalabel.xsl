@@ -6,6 +6,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 
 <xsl:template match="/">
+	<xsl:comment>this is a sample file generated from miapalabel.xsl
+	</xsl:comment>
   <xsl:for-each select="otus/otu">
     <xsl:variable name="label" select="@label"/>
     <xsl:element name="$label">
