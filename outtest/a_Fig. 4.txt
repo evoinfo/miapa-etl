@@ -1,0 +1,3 @@
+This document was created from the tree element in the source file
+Begin ISAtab mockup of 'meta' element 'content' attributes:
+""	"52"	"Unrated"	"Single"	"Species Tree"	""	
