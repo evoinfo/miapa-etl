@@ -2059,5 +2059,219 @@
       <edge id="edge1830" source="Tn274836" target="Tn274921"/>
       <edge id="edge1832" source="Tn274900" target="Tn274859"/>
     </tree>
+    <!--The following element was duplicated from above and its label name wach changed to fig 5.-->
+    <tree about="#Tr3926" id="Tr3926" label="Fig. 5" xsi:type="nex:FloatTree">
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:As1269" id="meta1841" rel="tb:output.analysisstep" xsi:type="nex:ResourceMeta"/>
+      <meta content="52" datatype="xsd:integer" id="meta1627" property="tb:ntax.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Unrated" datatype="xsd:string" id="meta1626" property="tb:quality.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Single" datatype="xsd:string" id="meta1625" property="tb:type.tree" xsi:type="nex:LiteralMeta"/>
+      <meta content="Species Tree" datatype="xsd:string" id="meta1624" property="tb:kind.tree" xsi:type="nex:LiteralMeta"/>
+      <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:S794" id="meta1623" rel="rdfs:isDefinedBy" xsi:type="nex:ResourceMeta"/>
+      <node id="Tn274900"/>
+      <node id="Tn274857" label="Grifola frondosa"/>
+      <node id="Tn274833"/>
+      <node id="Tn274867"/>
+      <node id="Tn274830"/>
+      <node id="Tn274917"/>
+      <node id="Tn274903" label="Grifola frondosa M001" otu="Tl248"/>
+      <node id="Tn274824"/>
+      <node id="Tn274910"/>
+      <node id="Tn274888"/>
+      <node id="Tn274860" label="Grifola frondosa M008" otu="Tl267"/>
+      <node id="Tn274831"/>
+      <node id="Tn274884"/>
+      <node id="Tn274881" label="Grifola frondosa M011" otu="Tl265"/>
+      <node id="Tn274834" label="Grifola frondosa WC808" otu="Tl280"/>
+      <node id="Tn274868" label="Grifola frondosa M012" otu="Tl273"/>
+      <node id="Tn274876"/>
+      <node id="Tn274823" label="Grifola frondosa M014" otu="Tl235"/>
+      <node id="Tn274840" label="Grifola frondosa M035" otu="Tl269"/>
+      <node id="Tn274872"/>
+      <node id="Tn274866" label="Grifola frondosa M009" otu="Tl251"/>
+      <node id="Tn274889" label="Grifola frondosa M013" otu="Tl276"/>
+      <node id="Tn274875"/>
+      <node id="Tn274825"/>
+      <node id="Tn274873"/>
+      <node id="Tn274822" label="Grifola frondosa M002" otu="Tl241"/>
+      <node id="Tn274907" label="Grifola frondosa WC364" otu="Tl272"/>
+      <node id="Tn274856" label="Grifola frondosa M015" otu="Tl262"/>
+      <node id="Tn274853"/>
+      <node id="Tn274862"/>
+      <node id="Tn274858" label="Grifola frondosa M003" otu="Tl234"/>
+      <node id="Tn274851" label="Grifola frondosa M004" otu="Tl231"/>
+      <node id="Tn274899" label="Grifola frondosa M006" otu="Tl255"/>
+      <node id="Tn274880"/>
+      <node id="Tn274894" label="Grifola frondosa M005" otu="Tl240"/>
+      <node id="Tn274887"/>
+      <node id="Tn274915" label="Grifola frondosa WC367" otu="Tl252"/>
+      <node id="Tn274849" label="Grifola frondosa WC483" otu="Tl236"/>
+      <node id="Tn274865"/>
+      <node id="Tn274885"/>
+      <node id="Tn274883" label="Grifola frondosa M007" otu="Tl278"/>
+      <node id="Tn274886" label="Grifola frondosa M010" otu="Tl271"/>
+      <node id="Tn274829" label="Grifola frondosa WC248" otu="Tl249"/>
+      <node id="Tn274836"/>
+      <node id="Tn274850"/>
+      <node id="Tn274845"/>
+      <node id="Tn274890"/>
+      <node id="Tn274919"/>
+      <node id="Tn274864"/>
+      <node id="Tn274839"/>
+      <node id="Tn274902" label="Grifola frondosa M016" otu="Tl245"/>
+      <node id="Tn274914" label="Grifola frondosa M017" otu="Tl232"/>
+      <node id="Tn274820" label="Grifola frondosa M018" otu="Tl253"/>
+      <node id="Tn274827" label="Grifola frondosa M031" otu="Tl259"/>
+      <node id="Tn274869"/>
+      <node id="Tn274918"/>
+      <node id="Tn274838" label="Grifola frondosa M020" otu="Tl237"/>
+      <node id="Tn274906" label="Grifola frondosa WC836" otu="Tl261"/>
+      <node id="Tn274892"/>
+      <node id="Tn274895"/>
+      <node id="Tn274848"/>
+      <node id="Tn274854" label="Grifola frondosa M029" otu="Tl243"/>
+      <node id="Tn274896"/>
+      <node id="Tn274846"/>
+      <node id="Tn274841"/>
+      <node id="Tn274911" label="Grifola frondosa M033" otu="Tl239"/>
+      <node id="Tn274843" label="Grifola frondosa WC659" otu="Tl260"/>
+      <node id="Tn274877"/>
+      <node id="Tn274835"/>
+      <node id="Tn274904"/>
+      <node id="Tn274905" label="Grifola frondosa M036" otu="Tl254"/>
+      <node id="Tn274852" label="Grifola frondosa M037" otu="Tl258"/>
+      <node id="Tn274912"/>
+      <node id="Tn274819" label="Grifola frondosa WC828" otu="Tl266"/>
+      <node id="Tn274847" label="Grifola frondosa WC835" otu="Tl238"/>
+      <node id="Tn274901" label="Grifola frondosa WC581" otu="Tl256"/>
+      <node id="Tn274863"/>
+      <node id="Tn274882"/>
+      <node id="Tn274916" label="Grifola frondosa WC556" otu="Tl244"/>
+      <node id="Tn274832" label="Grifola frondosa WC557" otu="Tl281"/>
+      <node id="Tn274898" label="Grifola frondosa WC582" otu="Tl247"/>
+      <node id="Tn274871"/>
+      <node id="Tn274844"/>
+      <node id="Tn274908"/>
+      <node id="Tn274891"/>
+      <node id="Tn274893" label="Grifola frondosa M030" otu="Tl277"/>
+      <node id="Tn274842"/>
+      <node id="Tn274920" label="Grifola frondosa M032" otu="Tl246"/>
+      <node id="Tn274913" label="Grifola frondosa M034" otu="Tl242"/>
+      <node id="Tn274821" label="Grifola frondosa M040" otu="Tl275"/>
+      <node id="Tn274828"/>
+      <node id="Tn274874" label="Grifola frondosa WC583" otu="Tl270"/>
+      <node id="Tn274826" label="Grifola frondosa WC834" otu="Tl282"/>
+      <node id="Tn274879"/>
+      <node id="Tn274878" label="Grifola frondosa M038" otu="Tl233"/>
+      <node id="Tn274837" label="Grifola frondosa M039" otu="Tl274"/>
+      <node id="Tn274855" label="Grifola frondosa WC685" otu="Tl257"/>
+      <node id="Tn274897" label="Grifola frondosa WC555" otu="Tl263"/>
+      <node id="Tn274861"/>
+      <node id="Tn274870" label="Grifola frondosa M019" otu="Tl264"/>
+      <node id="Tn274909" label="Grifola frondosa M021" otu="Tl250"/>
+      <node id="Tn274921" label="Grifola frondosa WC493" otu="Tl279"/>
+      <node id="Tn274859" label="Grifola sordulenta" otu="Tl126179"/>
+      <edge id="edge1630" source="Tn274900" target="Tn274857"/>
+      <edge id="edge1632" source="Tn274857" target="Tn274833"/>
+      <edge id="edge1634" source="Tn274833" target="Tn274867"/>
+      <edge id="edge1636" source="Tn274867" target="Tn274830"/>
+      <edge id="edge1638" source="Tn274830" target="Tn274917"/>
+      <edge id="edge1640" source="Tn274917" target="Tn274903"/>
+      <edge id="edge1642" source="Tn274917" target="Tn274824"/>
+      <edge id="edge1644" source="Tn274824" target="Tn274910"/>
+      <edge id="edge1646" source="Tn274910" target="Tn274888"/>
+      <edge id="edge1648" source="Tn274888" target="Tn274860"/>
+      <edge id="edge1650" source="Tn274888" target="Tn274831"/>
+      <edge id="edge1652" source="Tn274831" target="Tn274884"/>
+      <edge id="edge1654" source="Tn274884" target="Tn274881"/>
+      <edge id="edge1656" source="Tn274884" target="Tn274834"/>
+      <edge id="edge1658" source="Tn274831" target="Tn274868"/>
+      <edge id="edge1660" source="Tn274910" target="Tn274876"/>
+      <edge id="edge1662" source="Tn274876" target="Tn274823"/>
+      <edge id="edge1664" source="Tn274876" target="Tn274840"/>
+      <edge id="edge1666" source="Tn274824" target="Tn274872"/>
+      <edge id="edge1668" source="Tn274872" target="Tn274866"/>
+      <edge id="edge1670" source="Tn274872" target="Tn274889"/>
+      <edge id="edge1672" source="Tn274830" target="Tn274875"/>
+      <edge id="edge1674" source="Tn274875" target="Tn274825"/>
+      <edge id="edge1676" source="Tn274825" target="Tn274873"/>
+      <edge id="edge1678" source="Tn274873" target="Tn274822"/>
+      <edge id="edge1680" source="Tn274873" target="Tn274907"/>
+      <edge id="edge1682" source="Tn274825" target="Tn274856"/>
+      <edge id="edge1684" source="Tn274875" target="Tn274853"/>
+      <edge id="edge1686" source="Tn274853" target="Tn274862"/>
+      <edge id="edge1688" source="Tn274862" target="Tn274858"/>
+      <edge id="edge1690" source="Tn274862" target="Tn274851"/>
+      <edge id="edge1692" source="Tn274853" target="Tn274899"/>
+      <edge id="edge1694" source="Tn274867" target="Tn274880"/>
+      <edge id="edge1696" source="Tn274880" target="Tn274894"/>
+      <edge id="edge1698" source="Tn274880" target="Tn274887"/>
+      <edge id="edge1700" source="Tn274887" target="Tn274915"/>
+      <edge id="edge1702" source="Tn274887" target="Tn274849"/>
+      <edge id="edge1704" source="Tn274833" target="Tn274865"/>
+      <edge id="edge1706" source="Tn274865" target="Tn274885"/>
+      <edge id="edge1708" source="Tn274885" target="Tn274883"/>
+      <edge id="edge1710" source="Tn274885" target="Tn274886"/>
+      <edge id="edge1712" source="Tn274865" target="Tn274829"/>
+      <edge id="edge1714" source="Tn274857" target="Tn274836"/>
+      <edge id="edge1716" source="Tn274836" target="Tn274850"/>
+      <edge id="edge1718" source="Tn274850" target="Tn274845"/>
+      <edge id="edge1720" source="Tn274845" target="Tn274890"/>
+      <edge id="edge1722" source="Tn274890" target="Tn274919"/>
+      <edge id="edge1724" source="Tn274919" target="Tn274864"/>
+      <edge id="edge1726" source="Tn274864" target="Tn274839"/>
+      <edge id="edge1728" source="Tn274839" target="Tn274902"/>
+      <edge id="edge1730" source="Tn274839" target="Tn274914"/>
+      <edge id="edge1732" source="Tn274864" target="Tn274820"/>
+      <edge id="edge1734" source="Tn274919" target="Tn274827"/>
+      <edge id="edge1736" source="Tn274890" target="Tn274869"/>
+      <edge id="edge1738" source="Tn274869" target="Tn274918"/>
+      <edge id="edge1740" source="Tn274918" target="Tn274838"/>
+      <edge id="edge1742" source="Tn274918" target="Tn274906"/>
+      <edge id="edge1744" source="Tn274869" target="Tn274892"/>
+      <edge id="edge1746" source="Tn274892" target="Tn274895"/>
+      <edge id="edge1748" source="Tn274895" target="Tn274848"/>
+      <edge id="edge1750" source="Tn274848" target="Tn274854"/>
+      <edge id="edge1752" source="Tn274848" target="Tn274896"/>
+      <edge id="edge1754" source="Tn274896" target="Tn274846"/>
+      <edge id="edge1756" source="Tn274846" target="Tn274841"/>
+      <edge id="edge1758" source="Tn274841" target="Tn274911"/>
+      <edge id="edge1760" source="Tn274841" target="Tn274843"/>
+      <edge id="edge1762" source="Tn274846" target="Tn274877"/>
+      <edge id="edge1764" source="Tn274877" target="Tn274835"/>
+      <edge id="edge1766" source="Tn274835" target="Tn274904"/>
+      <edge id="edge1768" source="Tn274904" target="Tn274905"/>
+      <edge id="edge1770" source="Tn274904" target="Tn274852"/>
+      <edge id="edge1772" source="Tn274835" target="Tn274912"/>
+      <edge id="edge1774" source="Tn274912" target="Tn274819"/>
+      <edge id="edge1776" source="Tn274912" target="Tn274847"/>
+      <edge id="edge1778" source="Tn274877" target="Tn274901"/>
+      <edge id="edge1780" source="Tn274896" target="Tn274863"/>
+      <edge id="edge1782" source="Tn274863" target="Tn274882"/>
+      <edge id="edge1784" source="Tn274882" target="Tn274916"/>
+      <edge id="edge1786" source="Tn274882" target="Tn274832"/>
+      <edge id="edge1788" source="Tn274863" target="Tn274898"/>
+      <edge id="edge1790" source="Tn274895" target="Tn274871"/>
+      <edge id="edge1792" source="Tn274871" target="Tn274844"/>
+      <edge id="edge1794" source="Tn274844" target="Tn274908"/>
+      <edge id="edge1796" source="Tn274908" target="Tn274891"/>
+      <edge id="edge1798" source="Tn274891" target="Tn274893"/>
+      <edge id="edge1800" source="Tn274891" target="Tn274842"/>
+      <edge id="edge1802" source="Tn274842" target="Tn274920"/>
+      <edge id="edge1804" source="Tn274842" target="Tn274913"/>
+      <edge id="edge1806" source="Tn274908" target="Tn274821"/>
+      <edge id="edge1808" source="Tn274844" target="Tn274828"/>
+      <edge id="edge1810" source="Tn274828" target="Tn274874"/>
+      <edge id="edge1812" source="Tn274828" target="Tn274826"/>
+      <edge id="edge1814" source="Tn274871" target="Tn274879"/>
+      <edge id="edge1816" source="Tn274879" target="Tn274878"/>
+      <edge id="edge1818" source="Tn274879" target="Tn274837"/>
+      <edge id="edge1820" source="Tn274892" target="Tn274855"/>
+      <edge id="edge1822" source="Tn274845" target="Tn274897"/>
+      <edge id="edge1824" source="Tn274850" target="Tn274861"/>
+      <edge id="edge1826" source="Tn274861" target="Tn274870"/>
+      <edge id="edge1828" source="Tn274861" target="Tn274909"/>
+      <edge id="edge1830" source="Tn274836" target="Tn274921"/>
+      <edge id="edge1832" source="Tn274900" target="Tn274859"/>
+    </tree>
   </trees>
 </nex:nexml>
