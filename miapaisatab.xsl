@@ -14,7 +14,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			</xsl:matching-substring>
 		</xsl:analyze-string>
 	</xsl:variable>
-<!-- Template to exclude characters because they're large -->
+<!-- Template to exclude characters because they're large - this is temporary -->
 	<xsl:template match='characters'/>
 <!--	<xsl:variable name="filename2" select='base-uri(document-uri())'/>-->
 	<xsl:template match="otus">
