@@ -11,7 +11,7 @@
         <xsl:apply-templates select="characters"/>
         <xsl:apply-templates select="otus"/>
     </xsl:template>-->
-    <xsl:template match='characters'><xsl:text>characters template</xsl:text></xsl:template>
+  
     <!-- OTUs template -->
 <!--    This code works- commented out for test
         <xsl:template match='otus/otu'>
@@ -45,12 +45,14 @@
         <xsl:value-of select="$line"/>
     </xsl:template>-->
     <!--This code doesn't work.  Goal is to pull meta attributes and values from only top level attributes-->
-    <xsl:template name="filemeta" match="//meta where not(is(child::meta))">
+    <xsl:template match="nex:nexml">
         <xsl:text>file meta template</xsl:text>
         <xsl:value-of select="$line"/>
-        <xsl:for-each select="attribute::*">
+        <xsl:value-of select="."/>
+        <xsl:for-each select="/meta">
             <xsl:value-of select='name()'/>
             <xsl:value-of select="$tab"/>
         </xsl:for-each>
     </xsl:template>
+    <xsl:template match='characters'><xsl:text>characters template</xsl:text></xsl:template>
 </xsl:stylesheet>
