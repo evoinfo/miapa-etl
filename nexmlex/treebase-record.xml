@@ -1,5 +1,5 @@
 <!--<?xml version="1.0" encoding="UTF-8"?>-->
-<?xml-stylesheet type="text/xsl" href="miapatest.xsl"?>
+<!--<?xml-stylesheet type="text/xsl" href="miapatest.xsl"?>-->
 <nex:nexml xmlns:nex="http://www.nexml.org/2009" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tb="http://treebase.org/terms#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" about="#nex_nexml2" generator="org.nexml.model.impl.DocumentImpl" id="S794" version="0.9" xml:base="http://purl.org/phylo/treebase/phylows/study/TB2:">
   <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:A1269" id="meta1833" rel="tb:identifier.analysis" xsi:type="nex:ResourceMeta">
     <meta href="http://purl.org/phylo/treebase/phylows/study/TB2:As1269" id="meta1834" rel="tb:identifier.analysisstep" xsi:type="nex:ResourceMeta">
@@ -29,6 +29,9 @@
   <meta content="794" datatype="xsd:string" id="meta3" property="tb:identifier.study" xsi:type="nex:LiteralMeta"/>
   <meta content="Study" datatype="xsd:string" id="meta1" property="prism:section" xsi:type="nex:LiteralMeta"/>
   <otus id="Tls10691" label="TaxonLabelSet10691" xml:base="http://purl.org/phylo/treebase/phylows/taxon/TB2:">
+  	<!-- The meta elements that are direct children of OTUS below were created for testing purpopses-->
+  	<meta content="TEST" datatype="xsd:long" id="meta24" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
+  	<meta content="TEST" datatype="xsd:long" id="meta24" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
     <otu about="#Tl126179" id="Tl126179" label="Grifola sordulenta">
       <meta content="12578" datatype="xsd:long" id="meta24" property="tb:identifier.taxon" xsi:type="nex:LiteralMeta"/>
       <meta content="29804" datatype="xsd:long" id="meta23" property="tb:identifier.taxonVariant" xsi:type="nex:LiteralMeta"/>
