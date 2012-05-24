@@ -1,8 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!-- This file pulls all meta attribute names and then their values in rows below for an arbitrary NeXML file -->
 <!-- Still needed:  
-    make <<meta>> attribute extraction recursive
-    deal with attributes of main elements (e.g. otus and trees)
+    deal systematically with attributes of main elements (e.g. otus and trees)
     -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     version="2.0" xmlns:nex="http://www.nexml.org/2009">
