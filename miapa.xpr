@@ -10,13 +10,24 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="name">
-                                    <String>Hard-coded S103</String>
+                                    <String>Transform Treebase-record with XSL</String>
                                 </field>
                                 <field name="type">
                                     <String>XML</String>
                                 </field>
                                 <field name="url">
-                                    <String>tests/otucolumns.xsl</String>
+                                    <String>tests/filenametest.xsl</String>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="name">
+                                    <String>Transform Treebase-record with XSL</String>
+                                </field>
+                                <field name="type">
+                                    <String>XML</String>
+                                </field>
+                                <field name="url">
+                                    <String>tests/3outtest.xsl</String>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -28,6 +39,28 @@
                                 </field>
                                 <field name="url">
                                     <String>tests/supertreebasetest.xsl</String>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="name">
+                                    <String>Random supertreebase file - S100410</String>
+                                </field>
+                                <field name="type">
+                                    <String>XML</String>
+                                </field>
+                                <field name="url">
+                                    <String>allmeta.xsl</String>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="name">
+                                    <String>Hard-coded S103</String>
+                                </field>
+                                <field name="type">
+                                    <String>XML</String>
+                                </field>
+                                <field name="url">
+                                    <String>tests/otucolumns.xsl</String>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -61,17 +94,6 @@
                                 </field>
                                 <field name="url">
                                     <String>meta.xsl</String>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="name">
-                                    <String>Random supertreebase file - S100410</String>
-                                </field>
-                                <field name="type">
-                                    <String>XML</String>
-                                </field>
-                                <field name="url">
-                                    <String>allmeta.xsl</String>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
