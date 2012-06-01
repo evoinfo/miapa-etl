@@ -8,6 +8,7 @@
 <xsl:output method="text"/>
   
   <!-- Store the filename sans extension as variable 'filebase'-->
+  <!-- Note: this is dependent upon being passed a */*.xml file -->
 <xsl:variable name="filebase">
   <xsl:analyze-string select='base-uri()' regex="([/]?)([^/]+)([.])([xml]{{1,}}$)"> 
     <xsl:matching-substring>
