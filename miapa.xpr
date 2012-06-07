@@ -16,6 +16,28 @@
                                     <String>XML</String>
                                 </field>
                                 <field name="url">
+                                    <String>meta.xsl</String>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="name">
+                                    <String>Transform Treetest with XSL</String>
+                                </field>
+                                <field name="type">
+                                    <String>XML</String>
+                                </field>
+                                <field name="url">
+                                    <String>allmeta.xsl</String>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="name">
+                                    <String>Transform Treebase-record with XSL</String>
+                                </field>
+                                <field name="type">
+                                    <String>XML</String>
+                                </field>
+                                <field name="url">
                                     <String>tests/filenametest.xsl</String>
                                 </field>
                             </scenarioAssociation>
@@ -32,13 +54,13 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="name">
-                                    <String>Random supertreebase file - S100410</String>
+                                    <String>xml-stylesheet processing instruction</String>
                                 </field>
                                 <field name="type">
-                                    <String>XML</String>
+                                    <String>XSL</String>
                                 </field>
                                 <field name="url">
-                                    <String>tests/supertreebasetest.xsl</String>
+                                    <String>nexmlex/treebase-record.xml</String>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -49,7 +71,7 @@
                                     <String>XML</String>
                                 </field>
                                 <field name="url">
-                                    <String>allmeta.xsl</String>
+                                    <String>tests/supertreebasetest.xsl</String>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -72,28 +94,6 @@
                                 </field>
                                 <field name="url">
                                     <String>tests/miapaisatab.xsl</String>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="name">
-                                    <String>xml-stylesheet processing instruction</String>
-                                </field>
-                                <field name="type">
-                                    <String>XSL</String>
-                                </field>
-                                <field name="url">
-                                    <String>nexmlex/treebase-record.xml</String>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="name">
-                                    <String>Random supertreebase file - S100410</String>
-                                </field>
-                                <field name="type">
-                                    <String>XML</String>
-                                </field>
-                                <field name="url">
-                                    <String>meta.xsl</String>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
