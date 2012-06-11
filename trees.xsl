@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xpath-default-namespace="http://www.nexml.org/2009"
     version="1.0">
     <xsl:import href="template.xsl"/>
     <!-- Trees template -->
@@ -44,6 +44,4 @@
             </xsl:for-each>
         </xsl:for-each>
     </xsl:template>
-    <!-- This is so the Characters don't get printed-->
-    <xsl:template match="characters"/>
 </xsl:stylesheet>

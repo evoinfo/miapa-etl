@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    version="1.0" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    version="1.0" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xpath-default-namespace="http://www.nexml.org/2009">
     <xsl:import href="template.xsl"/>
     <xsl:variable name="seq"/>
     
@@ -30,8 +30,10 @@
             </xsl:if>
             
             <!-- Print the attribute values separated by tabs -->
+            <!-- **Next step: Customize row labels via a choose -->
             <xsl:text>LiteralMeta Row: </xsl:text>
             <xsl:value-of select="$tab"/>
+            <!-- **Next step: Customize which attributes are printed based on what they are -->
             <xsl:for-each select="attribute::*">
                 <xsl:value-of select='.'/>
                 <xsl:value-of select="$tab"/>
@@ -56,11 +58,13 @@
             </xsl:if>
             
             <!-- Print the attribute values separated by tabs -->
+            <!-- **Next step: Customize row labels via a choose -->
             <xsl:text>ResourceMeta Row: </xsl:text>
             <xsl:value-of select="$tab"/>
             <xsl:if test="position()=last()">
                 <xsl:text> last one</xsl:text>
             </xsl:if>
+            <!-- **Next step: Customize which attributes are printed based on what they are -->
             <xsl:for-each select="attribute::*">
                 <xsl:value-of select='.'/>
                 <xsl:value-of select="$tab"/>

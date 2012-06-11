@@ -4,7 +4,7 @@
     deal systematically with attributes of main elements (e.g. otus and trees)
     -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    version="2.0" xmlns:nex="http://www.nexml.org/2009">
+    version="2.0" xmlns:nex="http://www.nexml.org/2009" xpath-default-namespace="http://www.nexml.org/2009">
     
     <!-- Note:  I have put little thought into the ordering of these imports yet.  They may require a tweak for performance -->
     <xsl:import href="trees.xsl"/>

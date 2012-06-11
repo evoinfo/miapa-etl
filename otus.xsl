@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xpath-default-namespace="http://www.nexml.org/2009"
     version="1.0">
     <xsl:import href="template.xsl"/>
     <!-- OTUs template -->
@@ -10,7 +10,6 @@
         <xsl:value-of select="$line"/>
         <xsl:text>  ==  Output from otus.xsl: ==</xsl:text>
         <xsl:for-each select="otu">
-            
             <!-- Generate headers the first time around, skipping OTUs meta elements -->
             <!-- Problem!  The test below may not evaluate precisely if the meta elements are in a strange order -->
             <xsl:if test="position() = 1  + count(../meta)">

@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod +x firstscript.sh
+
 echo
 echo "This is a script to run XSLT transformations using Saxon"
 echo

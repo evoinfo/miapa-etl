@@ -2,17 +2,17 @@ This project is developing tools to Extract, Transform, and Load (ETL) MIAPA-com
 
 It is part of a Google Summer of Code project sponsored by the National Evolutionary Synthesis Center in Durham, North Carolina, USA
 
-	 == Extract ==
+###	== Extract ==
 To extract MIAPA-relevant information out of NeXML files I'll use XSL files and a Java-based XSLT processor.  This processor is currently Saxon 9 HE.
 
-	== Transform ==
+###	== Transform ==
 I'll transform the extracted information above into ISAtab files.
 
-	  == Load ==
+###	  == Load ==
 The ISAtab files should be able to be loaded into ISAtools for curation, etc, workflows.
 
 
-			Latest Update
+##			Latest Update
 _______________________________________________________________________________________
 Currently (May 23 2012), allmeta.xsl can be run to transform NeXML files into labeled, tabular lists 
 of values corresponding with the major NeXML elements.  Work continues on several fronts:
