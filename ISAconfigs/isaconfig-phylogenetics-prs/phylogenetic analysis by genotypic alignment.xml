@@ -1,6 +1,6 @@
 <isatab-config-file xmlns="http://www.ebi.ac.uk/bii/isatab_configuration#">
-    <isatab-configuration table-name="phylogenetic analysis by genotypic alignment" isatab-assay-type="generic_assay"
-        isatab-conversion-target="generic">
+    <isatab-configuration table-name="phylogenetic analysis by genotypic alignment"
+        isatab-assay-type="generic_assay" isatab-conversion-target="generic">
         <measurement term-label="phylogenetic analysis" term-accession="12345?"
             source-abbreviation="TB?"/>
         <technology term-label="sequence alignment" term-accession="12345?"
