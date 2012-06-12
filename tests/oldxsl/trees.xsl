@@ -2,27 +2,27 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xpath-default-namespace="http://www.nexml.org/2009"
     version="1.0">
     <xsl:import href="template.xsl"/>
-    <!-- OTUs template -->
-    <!-- Extracts all attribute names from otu elements and their meta children -->
-    <!-- I need to re-rewite this stroing nodes in variables -->
-    <xsl:template match='otus'>
+    <!-- Trees template -->
+    <!-- Extracts all attribute names from tree elements and their meta children -->
+    <xsl:template match='trees' name="trees">
         <xsl:value-of select="$line"/>
         <xsl:value-of select="$line"/>
-        <xsl:text>  ==  Output from otus.xsl: ==</xsl:text>
-        <xsl:for-each select="otu">
-            <!-- Generate headers the first time around, skipping OTUs meta elements -->
+        <xsl:value-of select="$line"/>
+        <xsl:text>  ==  Output from trees.xsl: ==</xsl:text>
+        <xsl:text>  ==  [Assay]: ==</xsl:text>
+        <xsl:value-of select="$line"/>
+        <xsl:for-each select="tree">
+            
+            <!-- Generate headers the first time around, skiping <<trees>> meta elements -->
             <!-- Problem!  The test below may not evaluate precisely if the meta elements are in a strange order -->
-            <xsl:if test="position() = 1  + count(../meta)">
-                <xsl:value-of select="$line"/>        
-                <xsl:text>OTU Header Row: </xsl:text>
+            <!-- I need to re-rewite this stroing nodes in variables -->
+            <xsl:if test="position() = 1">
+                <xsl:text>Trees Header Row: </xsl:text>  
                 <xsl:value-of select="$tab"/>
                 <xsl:for-each select="attribute::*">
                     <xsl:value-of select='name()'/>
                     <xsl:value-of select="$tab"/>
                 </xsl:for-each>
-                
-                <!-- This code prints subsidiary Meta attribtue names.  
-                     Not sure I need this but should use node variables anyways -->
                 <xsl:for-each select="meta/attribute::*">
                     <xsl:value-of select="name()"/>
                     <xsl:value-of select="$tab"/>
@@ -31,7 +31,8 @@
             
             <!--End headers.  Start a new row and print each field then a tab-->
             <xsl:value-of select="$line"/>
-            <xsl:text>OTU Row: </xsl:text>           
+            <xsl:text>Tree Row: </xsl:text>  
+            <xsl:value-of select="$tab"/>
             <!-- OTU attributes -->
             <xsl:for-each select="attribute::*">
                 <xsl:value-of select='.'/>

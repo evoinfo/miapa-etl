@@ -4,11 +4,12 @@
     <xsl:import href="template.xsl"/>
     <xsl:variable name="litcharmeta" select="/nex:nexml/characters/meta[@xsi:type='nex:LiteralMeta']"/>
     <xsl:variable name="rescharmeta" select="/nex:nexml/characters/meta[@xsi:type='nex:ResourceMeta']"/>
-    <xsl:template match="characters">
+    <xsl:template match="characters" name="characters">
         <xsl:value-of select="$line"/>
         <xsl:value-of select="$line"/>
         <xsl:value-of select="$line"/>
         <xsl:text>  ==  Output from characters.xsl: ==</xsl:text>
+        <xsl:text>  ==  [Study Sample]: ==</xsl:text>
         <xsl:value-of select="$line"/>   
         <xsl:for-each select="$litcharmeta">
             

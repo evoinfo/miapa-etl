@@ -10,8 +10,9 @@
     <xsl:variable name="litnodes" select="//meta[parent::nex:nexml | parent::meta][@xsi:type='nex:LiteralMeta']"/>
     <xsl:variable name="resnodes" select="//meta[parent::nex:nexml | parent::meta][@xsi:type='nex:ResourceMeta']"/>
     
-    <xsl:template match="/">    
+    <xsl:template match="nexml" name="nexml">    
         <xsl:text>  ==  Output from meta.xsl: ==</xsl:text>
+        <xsl:text>  ==  [Investigation] ==</xsl:text>
         
         <!-- LiteralMeta nodes -->
         <xsl:for-each select="$litnodes">
@@ -79,6 +80,6 @@
         
         <!-- Now, apply the other templates.  This is so it will work from allmeta.xsl
             When run on its own, meta.xsl will have a bunch of gene sequences spit out the bottom.-->
-        <xsl:apply-templates/>
+        
     </xsl:template>
 </xsl:stylesheet>
