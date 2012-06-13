@@ -1,0 +1,36 @@
+<isatab-config-file xmlns="http://www.ebi.ac.uk/bii/isatab_configuration#">
+    <isatab-configuration table-name="phylogenetic analysis by genotypic alignment"
+        isatab-assay-type="generic_assay" isatab-conversion-target="generic">
+        <measurement term-label="phylogenetic analysis" term-accession="12345?"
+            source-abbreviation="TB?"/>
+        <technology term-label="sequence alignment" term-accession="12345?"
+            source-abbreviation="TB?"/>
+        <field header="Sample Name" data-type="String" is-file-field="false"
+            is-multiple-value="false" is-required="true" is-hidden="false"
+            is-forced-ontology="false">
+            <description><![CDATA[Arbitrary]]></description>
+            <default-value><![CDATA[]]></default-value>
+            <generated-value-template>[INSTITUTION].Group-[GROUP_NO].Subject-[SUBJECT_NO].[SAMPLE_EXTRACT]</generated-value-template>
+        </field>
+        <protocol-field protocol-type="sequence alignment"/>
+        <field header="Parameter Value[alignment method]" data-type="String" is-file-field="false"
+            is-multiple-value="false" is-required="false" is-hidden="false"
+            is-forced-ontology="false">
+            <description><![CDATA[alignment method used]]></description>
+            <default-value><![CDATA[Smith-Waterman algorithm]]></default-value>
+        </field>
+        <field header="Assay Name" data-type="String" is-file-field="false"
+            is-multiple-value="false" is-required="true" is-hidden="false"
+            is-forced-ontology="false">
+            <description><![CDATA[Arbitrary]]></description>
+            <default-value><![CDATA[]]></default-value>
+        </field>
+        <field header="Raw Data File" data-type="String" is-file-field="true"
+            is-multiple-value="false" is-required="true" is-hidden="false"
+            is-forced-ontology="false">
+            <description><![CDATA[Arbitrary]]></description>
+            <default-value><![CDATA[]]></default-value>
+        </field>
+        <structured-field name="factors"/>
+    </isatab-configuration>
+</isatab-config-file>
