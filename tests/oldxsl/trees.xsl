@@ -9,7 +9,6 @@
         <xsl:value-of select="$line"/>
         <xsl:value-of select="$line"/>
         <xsl:text>  ==  Output from trees.xsl: ==</xsl:text>
-        <xsl:text>  ==  [Assay]: ==</xsl:text>
         <xsl:value-of select="$line"/>
         <xsl:for-each select="tree">
             
