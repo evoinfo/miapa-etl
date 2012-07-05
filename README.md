@@ -2,10 +2,7 @@ This project is developing tools to Extract, Transform, and Load (ETL) MIAPA-com
 
 It is part of a Google Summer of Code project sponsored by the National Evolutionary Synthesis Center in Durham, North Carolina, USA
 
-<<<<<<< HEAD
-##Links
-* [NESCent Project Wiki Page](http://bit.ly/ehmiapawiki)
-=======
+
 ###	== Extract ==
 To extract MIAPA-relevant information out of NeXML files I'll use XSL files and a Java-based XSLT processor.  This processor is currently Saxon 9 HE.
 
@@ -29,9 +26,7 @@ ________________________________________________________________________________
 
 
 == Links ==
-NESCent Project Wiki Page:
-http://informatics.nescent.org/wiki/PhyloSoC:_NeXML_to_MIAPA_mapping
->>>>>>> XSL-testing
+* [NESCent Project Wiki Page:] (http://informatics.nescent.org/wiki/PhyloSoC:_NeXML_to_MIAPA_mapping)
 
 * [Working Documentation (Google Docs)](bit.ly/ehmiapafolder)
 
