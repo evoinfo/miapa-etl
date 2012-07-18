@@ -47,11 +47,6 @@
             <!-- Construct proper output filepath -->
             <xsl:variable name="filename" select="concat($filebase, '/', $prefix, '_', $filebase, '_', $assaynum, '.txt')" />
             
-            <!-- DEBUG: print output file path -->
-            <xsl:text>DEBUG: Print output file path -- </xsl:text>
-            <xsl:value-of select="$filename" />
-            <xsl:value-of select="$line"/>
-            
             <!-- Create the document using output path above -->
             <xsl:result-document href="{$filename}">
                 <xsl:text>This document was created from the &lt;&lt;</xsl:text>

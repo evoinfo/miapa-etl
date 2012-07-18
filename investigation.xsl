@@ -5,9 +5,7 @@
     exclude-result-prefixes="xs"
     xpath-default-namespace="http://www.nexml.org/2009"
     version="2.0">
-    
-    <!-- First draft Investigation ISAtab file, following the 'isaconfig-phylogenetics-prs' config file -->
-    <xsl:import href="template.xsl"/>
+
 
     <xsl:variable name="ontology-source-reference">
         <xsl:text>ONTOLOGY SOURCE REFERENCE</xsl:text>

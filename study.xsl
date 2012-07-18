@@ -4,8 +4,6 @@
     exclude-result-prefixes="xs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:local="local.uri" xpath-default-namespace="http://www.nexml.org/2009" version="2.0">
 
-    <xsl:import href="template.xsl"/>
-
     <xsl:template match="/" name="study">
         <xsl:text> == Output of Study.xsl: ==</xsl:text>
         <xsl:value-of select="$line"/>

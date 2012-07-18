@@ -4,8 +4,6 @@
     xmlns:local="local.uri"
     xpath-default-namespace="http://www.nexml.org/2009" version="2.0">
     
-    <!-- Note:  This import is for Dev only. -->
-    <xsl:import href="template.xsl"/>
  
     <xsl:template match="/" name="assay">
 
