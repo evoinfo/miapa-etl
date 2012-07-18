@@ -14,7 +14,7 @@ printdir()
 	expath=$($expath > $4)
 	fi
 	echo
-	echo "========Begin Saxon output========"
+	echo "Transformation Started..."
 	$expath
 }
 
@@ -70,3 +70,4 @@ printdir $1 $2 $3 $4 $5
 
 
 fi
+echo "Transformation Complete."
