@@ -34,15 +34,6 @@
     <xsl:import href="study.xsl"/>
     <xsl:import href="assay.xsl"/>
     
-    <!-- Variable that selects the file name sans extension of the input XML file -->  
-    <xsl:variable name="filebase">
-        <xsl:analyze-string select='base-uri()' regex="([/]?)([^/]+)([.])([xml]{{1,}}$)"> 
-            <xsl:matching-substring>
-                <xsl:value-of select="regex-group(2)"/>
-            </xsl:matching-substring>
-        </xsl:analyze-string>
-    </xsl:variable>
-    
     <!-- This template controls the output files.  It takes parameters that tell us whether
         it's an I, S, or A file, outputs a result-document with the correct name, and calls
         the corresponding template-->

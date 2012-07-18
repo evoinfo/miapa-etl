@@ -1,74 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:nex="http://www.nexml.org/2009" exclude-result-prefixes="xs"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xpath-default-namespace="http://www.nexml.org/2009" version="2.0">
-   
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:nex="http://www.nexml.org/2009"
+    exclude-result-prefixes="xs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:local="local.uri" xpath-default-namespace="http://www.nexml.org/2009" version="2.0">
+
     <xsl:import href="template.xsl"/>
-    <xsl:variable name="litcharmeta"
-        select="/nex:nexml/characters/meta[@xsi:type='nex:LiteralMeta']"/>
-    <xsl:variable name="rescharmeta"
-        select="/nex:nexml/characters/meta[@xsi:type='nex:ResourceMeta']"/>
+
     <xsl:template match="/" name="study">
         <xsl:text> == Output of Study.xsl: ==</xsl:text>
         <xsl:value-of select="$line"/>
-        <xsl:for-each select="$litcharmeta">
 
-            <!-- Print headers the first time around -->
-            <xsl:if test="position()=1">
-                <xsl:text>Literal Metadata: </xsl:text>
-                <!-- Headers should be taken from ISAconfig
-                <xsl:value-of select="$tab"/>
-                <xsl:for-each select="attribute::*">
-                    <xsl:value-of select="name()"/>
-                    <xsl:value-of select="$tab"/>
-                </xsl:for-each>-->
-                <xsl:value-of select="$line"/>
-            </xsl:if>
-
-            <!-- Print the attribute values separated by tabs -->
-            <xsl:value-of select="@property"/>
-            <xsl:value-of select="$tab"/>
-            <xsl:value-of select="@content"/>
-            <xsl:value-of select="$tab"/>
-            <xsl:value-of select="@datatype"/>
-            <xsl:value-of select="$tab"/>
-            <xsl:value-of select="@id"/>
-            <xsl:value-of select="$line"/>
-        </xsl:for-each>
-
-        <xsl:value-of select="$line"/>
+        <!-- Print headers -->
+        <xsl:value-of select="local:cell(&quot;Source Name&quot;)"/>
+        <xsl:value-of select="local:cell(&quot;Characteristics[OTU name]&quot;)"/>
+        <xsl:value-of select="local:cell(&quot;Row OTU id&quot;)"/>
+        <xsl:value-of select="local:cell(&quot;Term Source REF&quot;)"/>
+        <xsl:value-of select="local:cell(&quot;Term Access Number&quot;)"/>
+        <xsl:value-of select="local:cell(&quot;Sample Name&quot;)"/>
+        <xsl:value-of select="local:cell(&quot;Characters OTUs Group id&quot;)"/>
+        <xsl:value-of select="local:cell(&quot;Number of Taxa in Sample Matrix&quot;)"/>
+        <xsl:value-of select="local:cell(&quot;Number of Characters in Sample Matrix&quot;)"/>
+        <xsl:value-of select="local:cell(&quot;Character Matrix Type&quot;)"/>
         <xsl:value-of select="$line"/>
 
-        <xsl:for-each select="$rescharmeta">
+        <!--Now Content for each Matrix row (= species | sequence) -->
+        <xsl:for-each select="$characters/matrix/row">
 
-            <!-- Print headers the first time around -->
-            <xsl:if test="position()=1">
-                <xsl:text>Resource Metadata: </xsl:text>
-                <!-- These should come from the ISA config
-                <xsl:value-of select="$tab"/>
-                <xsl:for-each select="attribute::*">
-                    <xsl:value-of select="name()"/>
-                    <xsl:value-of select="$tab"/>
-                </xsl:for-each>-->
-                <xsl:value-of select="$line"/>
-            </xsl:if>
+            <xsl:variable name="otu" select="@otu"/>
+            <xsl:variable name="current-chars" select="ancestor::node()[2]"/>
+            
 
-            <!-- Print the attribute values separated by tabs -->
-            <xsl:value-of select="@rel"/>
-            <xsl:value-of select="$tab"/>
-            <xsl:value-of select="@href"/>
-            <xsl:value-of select="$tab"/>
-            <xsl:value-of select="@id"/>
-            <xsl:value-of select="$tab"/>
+            <!-- Martix Rows = Source -->
+            <xsl:value-of select="local:cell(@id)"/>
+            <xsl:value-of select="local:cell((//otu[@id=$otu]/@label)[1])"/>
+            <xsl:value-of select="local:cell((@otu)[1])"/>
+            <xsl:value-of select="local:cell('')"/>
+            <xsl:value-of select="local:cell('')"/>
+
+            <!-- Character Matrix = Sample -->
+            <xsl:value-of select="local:cell($current-chars/@id)"/>
+            <xsl:value-of select="local:cell($current-chars/@otus)"/>
+            <xsl:value-of
+                select="local:cell($current-chars/meta[@property='tb:ntax.matrix']/@content)"/>
+            <xsl:value-of
+                select="local:cell($current-chars/meta[@property='tb:nchar.matrix']/@content)"/>
+            <xsl:value-of
+                select="local:cell($current-chars/meta[@property='tb:type.matrix']/@content)"/>
             <xsl:value-of select="$line"/>
         </xsl:for-each>
-        
-        <!-- Now, process character state matrices -->
-        <xsl:for-each select="/nexml/characters">
-            <xsl:text>TBD: Characters element processing</xsl:text>
-            <xsl:value-of select="$line"/>
-        </xsl:for-each>
-        
     </xsl:template>
 </xsl:stylesheet>
