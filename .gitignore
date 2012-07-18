@@ -1,9 +1,5 @@
 .DS_Store
-<<<<<<< HEAD
-=======
-*/.DS_Store
-S10410*
-S10041*
-S10160*
+S10410/*
+S10041/*
+S10160/*
 treebase-record/*
->>>>>>> XSL-testing
