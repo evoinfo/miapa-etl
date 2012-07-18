@@ -39,12 +39,12 @@ Investigation Person Roles Term Source REF
 
 
 STUDY
-Study Identifier	10041
-Study Title	Semimorula liquescens is a modified echinostelid myxomycete (Mycetozoa)
+Study Identifier	794
+Study Title	Molecular phylogenetic analysis of Grifola frondosa (maitake) reveals a species partition separating North American and Asian isolates.
 Study Submission Date	
 Study Public Release Date	
 Study Description	
-Study File Name	S10041.xml
+Study File Name	treebase-record.xml
 
 
 STUDY DESIGN DESCRIPTORS
@@ -56,8 +56,8 @@ Study Design Type Term Source REF
 STUDY PUBLICATIONS
 Study PubMed ID	
 Study Publication DOI	
-Study Publication Author list	Fiore-donno A., Haskins E., Pawlowski J., & Cavalier-smith T.
-Study Publication Title	Semimorula liquescens is a modified echinostelid myxomycete (Mycetozoa)
+Study Publication Author list	Shen Q., Geiser D., & Royse D.
+Study Publication Title	Molecular phylogenetic analysis of Grifola frondosa (maitake) reveals a species partition separating North American and Asian isolates.
 Study Publication Status	
 Study Publication Status Term Accession Number	
 Study Publication Status Term Source REF	
@@ -69,7 +69,7 @@ Study Factor Type Term Accession Number
 Study Factor Type Term Source REF	
 
 STUDY ASSAYS
-Study Assay Measurement Type	Consensus Species Tree	
+Study Assay Measurement Type	Single Species Tree	Single Species Tree	
 Study Assay Measurement Type Term Accession Number	
 Study Assay Measurement Type Term Source REF	
 Study Assay Technology Type	

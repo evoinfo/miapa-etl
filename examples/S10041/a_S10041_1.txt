@@ -1,6 +1,2 @@
-This document was created from the <<trees>> element in the source file S10041.xml
-	Begin ISAtab output:
-
-  ==  Output from assay.xsl: ==
-"Sample Name"	"Material Type"	"Term Source REF"	"Term Accession Number"	"Protocol REF"	- Debug: begin tree headers here -	"Tree ID"	"Tree Kind"	"Tree Type"	"Tree Quality"	"Derived Data File"	
-"M4654"	"DNA"	""	""	""	 - Debug: Begin tree values here -"Tr6262"	"Species Tree"	"Consensus"	"Unrated"	"S10041.xml/nexml/trees/tree[@id=Tr6262]"	
+"Sample Name"	"Material Type"	"Term Source REF"	"Term Accession Number"	"Protocol REF"	"Tree ID"	"Tree Kind"	"Tree Type"	"Tree Quality"	"Derived Data File"	
+"M4654"	"DNA"	""	""	""	"Tr6262"	"Species Tree"	"Consensus"	"Unrated"	"S10041.xml/nexml/trees/tree[@id=Tr6262]"	

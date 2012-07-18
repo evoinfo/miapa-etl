@@ -1,0 +1,3 @@
+"Sample Name"	"Material Type"	"Term Source REF"	"Term Accession Number"	"Protocol REF"	"Tree ID"	"Tree Kind"	"Tree Type"	"Tree Quality"	"Derived Data File"	
+"M83"	"DNA"	""	""	""	"Tr3926"	"Species Tree"	"Single"	"Unrated"	"treebase-record.xml/nexml/trees/tree[@id=Tr3926]"	
+"M83"	"DNA"	""	""	""	"Tr3926"	"Species Tree"	"Single"	"Unrated"	"treebase-record.xml/nexml/trees/tree[@id=Tr3926]"	

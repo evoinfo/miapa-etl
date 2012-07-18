@@ -1,6 +1,4 @@
-This document was created from the <<nexml>> element in the source file S10410.xml
-	Begin ISAtab output:
-  ==  Output of investigation.xsl:  ==
+
 ONTOLOGY SOURCE REFERENCE
 Term Source Name
 Term Source File

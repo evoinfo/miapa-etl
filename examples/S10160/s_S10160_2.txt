@@ -1,6 +1,3 @@
-This document was created from the <<characters>> element in the source file S10160.xml
-	Begin ISAtab output:
- == Output of Study.xsl: ==
 "Source Name"	"Characteristics[OTU name]"	"Row OTU id"	"Term Source REF"	"Term Access Number"	"Sample Name"	"Characters OTUs Group id"	"Number of Taxa in Sample Matrix"	"Number of Characters in Sample Matrix"	"Character Matrix Type"	
 "Row187236"	"Apalone ferox"	"Tl241245"	""	""	"M4188"	"Tls14408"	"213"	"10000"	"DNA"	
 "Row187237"	"Apalone mutica"	"Tl241294"	""	""	"M4188"	"Tls14408"	"213"	"10000"	"DNA"	
