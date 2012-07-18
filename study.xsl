@@ -5,20 +5,18 @@
     xmlns:local="local.uri" xpath-default-namespace="http://www.nexml.org/2009" version="2.0">
 
     <xsl:template match="/" name="study">
-        <xsl:text> == Output of Study.xsl: ==</xsl:text>
-        <xsl:value-of select="$line"/>
 
         <!-- Print headers -->
-        <xsl:value-of select="local:cell(&quot;Source Name&quot;)"/>
-        <xsl:value-of select="local:cell(&quot;Characteristics[OTU name]&quot;)"/>
-        <xsl:value-of select="local:cell(&quot;Row OTU id&quot;)"/>
-        <xsl:value-of select="local:cell(&quot;Term Source REF&quot;)"/>
-        <xsl:value-of select="local:cell(&quot;Term Access Number&quot;)"/>
-        <xsl:value-of select="local:cell(&quot;Sample Name&quot;)"/>
-        <xsl:value-of select="local:cell(&quot;Characters OTUs Group id&quot;)"/>
-        <xsl:value-of select="local:cell(&quot;Number of Taxa in Sample Matrix&quot;)"/>
-        <xsl:value-of select="local:cell(&quot;Number of Characters in Sample Matrix&quot;)"/>
-        <xsl:value-of select="local:cell(&quot;Character Matrix Type&quot;)"/>
+        <xsl:value-of select="local:empty-cell(&quot;Source Name&quot;)"/>
+        <xsl:value-of select="local:empty-cell(&quot;Characteristics[OTU name]&quot;)"/>
+        <xsl:value-of select="local:empty-cell(&quot;Row OTU id&quot;)"/>
+        <xsl:value-of select="local:empty-cell(&quot;Term Source REF&quot;)"/>
+        <xsl:value-of select="local:empty-cell(&quot;Term Access Number&quot;)"/>
+        <xsl:value-of select="local:empty-cell(&quot;Sample Name&quot;)"/>
+        <xsl:value-of select="local:empty-cell(&quot;Characters OTUs Group id&quot;)"/>
+        <xsl:value-of select="local:empty-cell(&quot;Number of Taxa in Sample Matrix&quot;)"/>
+        <xsl:value-of select="local:empty-cell(&quot;Number of Characters in Sample Matrix&quot;)"/>
+        <xsl:value-of select="local:empty-cell(&quot;Character Matrix Type&quot;)"/>
         <xsl:value-of select="$line"/>
 
         <!--Now Content for each Matrix row (= species | sequence) -->
@@ -29,21 +27,21 @@
             
 
             <!-- Martix Rows = Source -->
-            <xsl:value-of select="local:cell(@id)"/>
-            <xsl:value-of select="local:cell((//otu[@id=$otu]/@label)[1])"/>
-            <xsl:value-of select="local:cell((@otu)[1])"/>
-            <xsl:value-of select="local:cell('')"/>
-            <xsl:value-of select="local:cell('')"/>
+            <xsl:value-of select="local:empty-cell(@id)"/>
+            <xsl:value-of select="local:empty-cell((//otu[@id=$otu]/@label)[1])"/>
+            <xsl:value-of select="local:empty-cell((@otu)[1])"/>
+            <xsl:value-of select="local:empty-cell('')"/>
+            <xsl:value-of select="local:empty-cell('')"/>
 
             <!-- Character Matrix = Sample -->
-            <xsl:value-of select="local:cell($current-chars/@id)"/>
-            <xsl:value-of select="local:cell($current-chars/@otus)"/>
+            <xsl:value-of select="local:empty-cell($current-chars/@id)"/>
+            <xsl:value-of select="local:empty-cell($current-chars/@otus)"/>
             <xsl:value-of
-                select="local:cell($current-chars/meta[@property='tb:ntax.matrix']/@content)"/>
+                select="local:empty-cell($current-chars/meta[@property='tb:ntax.matrix']/@content)"/>
             <xsl:value-of
-                select="local:cell($current-chars/meta[@property='tb:nchar.matrix']/@content)"/>
+                select="local:empty-cell($current-chars/meta[@property='tb:nchar.matrix']/@content)"/>
             <xsl:value-of
-                select="local:cell($current-chars/meta[@property='tb:type.matrix']/@content)"/>
+                select="local:empty-cell($current-chars/meta[@property='tb:type.matrix']/@content)"/>
             <xsl:value-of select="$line"/>
         </xsl:for-each>
     </xsl:template>

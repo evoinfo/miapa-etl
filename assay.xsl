@@ -5,25 +5,20 @@
     xpath-default-namespace="http://www.nexml.org/2009" version="2.0">
     
  
+ 
     <xsl:template match="/" name="assay">
 
-        <xsl:value-of select="$line"/>
-        <xsl:text>  ==  Output from assay.xsl: ==</xsl:text>
-        <xsl:value-of select="$line"/>
-        
         <!-- Print headers -->
-        <!-- Todo: rewrite using local:cell -->
-        <xsl:text>"Sample Name"</xsl:text><xsl:value-of select="$tab"/>
-        <xsl:text>"Material Type"</xsl:text><xsl:value-of select="$tab"/>
-        <xsl:text>"Term Source REF"</xsl:text><xsl:value-of select="$tab"/>
-        <xsl:text>"Term Accession Number"</xsl:text><xsl:value-of select="$tab"/>
-        <xsl:text>"Protocol REF"</xsl:text><xsl:value-of select="$tab"/>
-        <xsl:text>- Debug: begin tree headers here -</xsl:text><xsl:value-of select="$tab"/>
-        <xsl:value-of select="local:cell('Tree ID')"/>
-        <xsl:value-of select="local:cell('Tree Kind')"/>
-        <xsl:value-of select="local:cell('Tree Type')"/>
-        <xsl:value-of select="local:cell('Tree Quality')"/>
-        <xsl:value-of select="local:cell('Derived Data File')"/>
+        <xsl:value-of select="local:empty-cell('Sample Name')"/>
+        <xsl:value-of select="local:empty-cell('Material Type')"/>
+        <xsl:value-of select="local:empty-cell('Term Source REF')"/>
+        <xsl:value-of select="local:empty-cell('Term Accession Number')"/>
+        <xsl:value-of select="local:empty-cell('Protocol REF')"/>
+        <xsl:value-of select="local:empty-cell('Tree ID')"/>
+        <xsl:value-of select="local:empty-cell('Tree Kind')"/>
+        <xsl:value-of select="local:empty-cell('Tree Type')"/>
+        <xsl:value-of select="local:empty-cell('Tree Quality')"/>
+        <xsl:value-of select="local:empty-cell('Derived Data File')"/>
         <xsl:value-of select="$line"/>
         
         <!--Now Content for each trees/tree-->
@@ -35,19 +30,18 @@
                     <xsl:value-of select="local:matrices-as-rows($ct-otus,$characters)"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="local:cell()"/>
-                    <xsl:value-of select="local:cell()"/>
-                    <xsl:value-of select="local:cell()"/>
-                    <xsl:value-of select="local:cell()"/>
-                    <xsl:value-of select="local:cell()"/>
+                    <xsl:value-of select="local:empty-cell()"/>
+                    <xsl:value-of select="local:empty-cell()"/>
+                    <xsl:value-of select="local:empty-cell()"/>
+                    <xsl:value-of select="local:empty-cell()"/>
+                    <xsl:value-of select="local:empty-cell()"/>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:text> - Debug: Begin tree values here -</xsl:text>
-            <xsl:value-of select="local:cell(@id)"/>
-            <xsl:value-of select="local:cell(meta[@property=&quot;tb:kind.tree&quot;]/@content)"/>
-            <xsl:value-of select="local:cell(meta[@property=&quot;tb:type.tree&quot;]/@content)"/>
-            <xsl:value-of select="local:cell(meta[@property=&quot;tb:quality.tree&quot;]/@content)"/>
-            <xsl:value-of select="local:cell(concat($filefull, '/nexml/trees/tree[@id=', @id, ']'))"/>
+            <xsl:value-of select="local:empty-cell(@id)"/>
+            <xsl:value-of select="local:empty-cell(meta[@property=&quot;tb:kind.tree&quot;]/@content)"/>
+            <xsl:value-of select="local:empty-cell(meta[@property=&quot;tb:type.tree&quot;]/@content)"/>
+            <xsl:value-of select="local:empty-cell(meta[@property=&quot;tb:quality.tree&quot;]/@content)"/>
+            <xsl:value-of select="local:empty-cell(concat($filefull, '/nexml/trees/tree[@id=', @id, ']'))"/>
             <xsl:value-of select="$line"/>
         </xsl:for-each>         
     </xsl:template>

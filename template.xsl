@@ -9,10 +9,6 @@
     <!-- NOTE:  $tab may have multiple &#09;s in it for temporary text readability.  Final should have only one-->
     <xsl:variable name='tab' select="'&#09;'"/>
     <xsl:variable name='line' select="'&#10;'"/>
-    <xsl:variable name='empty' select="'&quot;&quot;'"/>
-    
-    <!-- TODO: replace all refs to this var with local:cell('') -->
-    <xsl:variable name="empty-tab" select="concat($empty, $tab)"/>
     
     <!-- Location Variables - used in functions without context -->
     <xsl:variable name="characters" select="/nexml/characters"/>
@@ -70,9 +66,9 @@
         <xsl:param name="characters-param"/>
         <xsl:value-of select="local:enquote($characters-param[@otus=$otus-param]/@id)"/>
         <xsl:value-of select="local:enquote($characters-param[@otus=$otus-param]/meta[@property='tb:type.matrix']/@content)"/>
-        <xsl:value-of select="$empty-tab"/>
-        <xsl:value-of select="$empty-tab"/>
-        <xsl:value-of select="$empty-tab"/>
+        <xsl:value-of select="local:empty-cell()"/>
+        <xsl:value-of select="local:empty-cell()"/>
+        <xsl:value-of select="local:empty-cell()"/>
     </xsl:function>
     
     <xsl:function name="local:enquote">
@@ -82,12 +78,11 @@
             <xsl:text>"</xsl:text>
             <xsl:value-of select="."/>
             <xsl:text>"</xsl:text>
-            <xsl:if test="position()=last()"></xsl:if>
             <xsl:value-of select="$tab"/>
         </xsl:for-each>
     </xsl:function>
     
-    <xsl:function name="local:cell">
+    <xsl:function name="local:empty-cell">
         <!-- Takes text input and quotes and tabs it.  Eqivalent to a tab delimited cell -->
         <xsl:param name="text"/>
         <xsl:text>"</xsl:text>
@@ -96,7 +91,7 @@
         <xsl:value-of select="$tab"/>
     </xsl:function>
 
-    <xsl:function name="local:cell">
+    <xsl:function name="local:empty-cell">
         <!-- Zero arity version  Eqivalent to a tab delimited cell -->
         <xsl:text>""</xsl:text>
         <xsl:value-of select="$tab"/>
