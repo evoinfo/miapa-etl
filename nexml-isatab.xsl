@@ -47,17 +47,12 @@
             <!-- Construct proper output filepath -->
             <xsl:variable name="filename" select="concat($filebase, '/', $prefix, '_', $filebase, '_', $assaynum, '.txt')" />
             
+            <!-- Print file path to stdout.  TODO: make this a custom behavior-->
+            <xsl:text>Creating: </xsl:text>
+            <xsl:value-of select="concat($filename,$line)"/>
+            
             <!-- Create the document using output path above -->
             <xsl:result-document href="{$filename}">
-                <xsl:text>This document was created from the &lt;&lt;</xsl:text>
-                <xsl:value-of select="$element"/>
-                <xsl:text>&gt;&gt; element in the source file </xsl:text>
-                <xsl:value-of select="$filebase"/>
-                <xsl:text>.xml</xsl:text>
-                <xsl:value-of select="$line"/>
-                <xsl:value-of select="$tab"/>
-                <xsl:text>Begin ISAtab output:</xsl:text>
-                <xsl:value-of select="$line"/>
                 
                 <!-- Choose template to call based on $tempname parameter -->
                 <xsl:choose>                          
