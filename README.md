@@ -7,13 +7,13 @@ You can find details on the logical mapping between the formats in the links sec
 
 From the project directory, run
 
-	./miapaisatab.sh 
+	./miapa-etl.sh 
 
-The script has inline instructions.  Requires a [SAXON jar] (http://sourceforge.net/projects/saxon/files/).  I use [SAXON 9.4 HE] (http://sourceforge.net/projects/saxon/files/Saxon-HE/9.4/)
+The script has inline instructions.  Requires a [SAXON jar] (http://sourceforge.net/projects/saxon/files/).  I use [SAXON 9.4 HE] (http://sourceforge.net/projects/saxon/files/Saxon-HE/9.4/).  You'll find 'saxon9he.jar` in [SaxonHE9-4-0-4J.zip](http://sourceforge.net/projects/saxon/files/Saxon-HE/9.4/SaxonHE9-4-0-4J.zip/download)
 
 Optionally, you can pass it arguments:
 
-	./miapaisatab.sh path/to/NeXML.file ./nexml-isatab.xsl path/to/your.SAXON.jar
+	./miapa-etl.sh path/to/NeXML.file ./nexml-isatab.xsl path/to/your.SAXON.jar
 
 The tool will create an output directory named after the input file and place the ISAtab files in this directory.
 
@@ -21,7 +21,7 @@ The tool will create an output directory named after the input file and place th
 
 The examples directory contains NeXML files and corresponding ISAtab files, taken from Rutger Vos' [supertreebase](https://github.com/rvosa/supertreebase).  You should be able to duplicate them using the tool.  For instance, to transform the treebase file `S10410.xml` from the examples, type
 
-	./miapaisatab.sh examples/S10410/S10410.xml ./nexml-isatab.xsl ~/git/working/SAXON9he.jar
+	./miapa-etl.sh nexmlex/S10410.xml ./nexml-isatab.xsl ~/git/working/SAXON9he.jar
 
 Assuming `~/git/working/SAXON9he.jar` actually points to your SAXON jar, this should produce the following files in your project directory:
 ``` 
