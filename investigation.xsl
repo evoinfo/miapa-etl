@@ -68,7 +68,8 @@
         <xsl:text>Investigation Person Roles Term Source REF</xsl:text><xsl:value-of select="$tab"/><xsl:value-of select="$line"/>
     </xsl:variable>
     
-    <!-- TODO: this section should repeat once per study -->
+   
+    <!-- Currently only one Study happens per nexml.  otherwise we'd need column support here. -->
     <xsl:variable name="study">
         <xsl:value-of select="$line"/>
         <xsl:text>STUDY</xsl:text><xsl:value-of select="$line"/>
@@ -154,7 +155,6 @@
     </xsl:variable>
    
     <xsl:template match="/" name="investigation">
-        <xsl:text>  ==  Output of investigation.xsl:  ==</xsl:text>
         <xsl:value-of select="$line"/>
         <xsl:value-of select="$ontology-source-reference"/><xsl:value-of select="$line"/>
         <xsl:value-of select="$investigation"/><xsl:value-of select="$line"/>
