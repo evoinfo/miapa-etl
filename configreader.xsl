@@ -141,10 +141,8 @@
             <!-- Investigation -->
             <xsl:when test="$table-name='investigation'">
                 <xsl:variable name="filename" select="concat($filebase, '/', $prefix, '_', $filebase, '_', $position, '.txt')"/>
-                <xsl:result-document href="{$filename}">
-                    <xsl:text>DEBUG: result-doc</xsl:text>
+                <xsl:result-document href="{$filename}">                 
                     <xsl:for-each-group select="$current-config/isa:isatab-config-file/isa:isatab-configuration/isa:field" group-by="@section">
-                        <xsl:text>DEBUG: for-each-group</xsl:text>
                         <xsl:value-of select="current-grouping-key()"/>
                         <xsl:value-of select="$line"/>
                         <xsl:for-each select="current-group()">
