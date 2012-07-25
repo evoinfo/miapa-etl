@@ -35,12 +35,12 @@ ${one:="$HOME/git/miapa-etl/nexmlex/S10160.xml"}
 
 echo
 echo "  If your setup is like mine, your MIAPA ETL XSLT file is here:"
-echo "  $HOME/git/miapa-etl/configreader.xsl"
+echo "  $HOME/git/miapa-etl/nexml-isatab.xsl"
 echo
 echo "Enter absolute path of XSLT file to transform with or press enter to use above path:"
 read two
 
-${two:="$HOME/git/miapa-etl/configreader.xsl"}
+${two:="$HOME/git/miapa-etl/nexml-isatab.xsl"}
 
 echo
 echo "  If your setup is like mine, Saxon is here:"
