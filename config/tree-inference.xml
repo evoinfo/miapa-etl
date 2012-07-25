@@ -1,42 +1,32 @@
 <isatab-config-file xmlns="http://www.ebi.ac.uk/bii/isatab_configuration#">
-    <isatab-configuration table-name="tree-inference" isatab-assay-type="generic_assay"
-        isatab-conversion-target="generic">
-        <measurement term-label="Phylogenetic Inference" term-accession="12345"
-            source-abbreviation="TBD"/>
+    <isatab-configuration table-name="tree-inference" isatab-assay-type="generic_assay" isatab-conversion-target="generic">
+        <measurement term-label="Phylogenetic Inference" term-accession="12345" source-abbreviation="TBD"/>
         <technology term-label="Inference Software" term-accession="12345" source-abbreviation="TBD"/>
-        <field header="Sample Name" data-type="String" is-file-field="false"
-            is-multiple-value="false" is-required="true" is-hidden="false">
+        <field header="Sample Name" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false">
             <description><![CDATA[The unique ID of the matrix the tree was inferred from.]]></description>
             <default-value><![CDATA[]]></default-value>
-            <generated-value-template>[INSTITUTION].Group-[GROUP_NO].Subject-[SUBJECT_NO].[SAMPLE_EXTRACT]</generated-value-template>
         </field>
-        <field header="Assay Name" data-type="String" is-file-field="false"
-            is-multiple-value="false" is-required="true" is-hidden="false">
+        <field header="Assay Name" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false">
             <description><![CDATA[The unique ID of the Tree.]]></description>
             <default-value><![CDATA[]]></default-value>
         </field>
-        <field header="Characteristics[Tree Kind]" data-type="String" is-file-field="false"
-            is-multiple-value="false" is-required="false" is-hidden="false">
+        <field header="Characteristics[Tree Kind]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false">
             <description><![CDATA[The Kind of tree (e.g. 'Species' or 'Gene')]]></description>
             <default-value><![CDATA[]]></default-value>
         </field>
-        <field header="Characteristics[Tree Type]" data-type="String" is-file-field="false"
-            is-multiple-value="false" is-required="false" is-hidden="false">
+        <field header="Characteristics[Tree Type]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false">
             <description><![CDATA[The tree Type (e.g. 'Single' or 'Consensus')]]></description>
             <default-value><![CDATA[]]></default-value>
         </field>
-        <field header="Characteristics[Tree Quality]" data-type="String" is-file-field="false"
-            is-multiple-value="false" is-required="false" is-hidden="false">
+        <field header="Characteristics[Tree Quality]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false">
             <description><![CDATA[The tree's Rating. Default is 'Unrated']]></description>
             <default-value><![CDATA[Unrated]]></default-value>
         </field>
-        <field header="Raw Data File" data-type="String" is-file-field="false"
-            is-multiple-value="false" is-required="true" is-hidden="false">
+        <field header="Raw Data File" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false">
             <description><![CDATA[Raw data filename.]]></description>
             <default-value><![CDATA[]]></default-value>
         </field>
-        <field header="Characteristics[XPath to Tree]" data-type="String" is-file-field="false"
-            is-multiple-value="false" is-required="false" is-hidden="false">
+        <field header="Characteristics[XPath to Tree]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false">
             <description><![CDATA[XPath expression resolving to the NeXML <<tree>> element corresponding to this Assay. Assume the XPath context is the root node of the appropriate NeXML document. e.g. /nexml/trees/tree[@id='this-tree-id']]]></description>
             <default-value><![CDATA[]]></default-value>
         </field>
