@@ -1,1 +1,0 @@
-This directory contains ISA Configuration files, generated using ISA Configurator.
