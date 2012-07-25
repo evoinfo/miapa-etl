@@ -26,21 +26,21 @@ if [ "$#" != "3" ] && [ "$#" !=  "4" ]
 then
 
 echo "  If your setup is like mine, your XML is here:"
-echo "  $HOME/git/miapa-etl/nexmlex/treebase-record.xml"
+echo "  $HOME/git/miapa-etl/nexmlex/S10160.xml"
 echo
 echo "Enter absolute path of XML to be transformed or press enter to use above path:"
 read one
 
-${one:="$HOME/git/miapa-etl/nexmlex/treebase-record.xml"}
+${one:="$HOME/git/miapa-etl/nexmlex/S10160.xml"}
 
 echo
 echo "  If your setup is like mine, your MIAPA ETL XSLT file is here:"
-echo "  $HOME/git/miapa-etl/nexml-isatab.xsl"
+echo "  $HOME/git/miapa-etl/configreader.xsl"
 echo
 echo "Enter absolute path of XSLT file to transform with or press enter to use above path:"
 read two
 
-${two:="$HOME/git/miapa-etl/nexml-isatab.xsl"}
+${two:="$HOME/git/miapa-etl/configreader.xsl"}
 
 echo
 echo "  If your setup is like mine, Saxon is here:"
@@ -53,9 +53,9 @@ ${three:="$HOME/git/working/saxon9he.jar"}
 
 echo
 echo "  Optional: To redirect output to a file enter a relative path.  e.g:"
-echo "  allmetaoutput.txt"
+echo "  log.txt"
 echo
-echo "Enter optional redirect path or press enter to get output in terminal:"
+echo "Enter optional redirect path or press enter to get stdoutput in terminal:"
 read four
 
 
