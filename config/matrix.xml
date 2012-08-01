@@ -1,0 +1,45 @@
+<isatab-config-file xmlns="http://www.ebi.ac.uk/bii/isatab_configuration#">
+    <isatab-configuration table-name="matrix">
+        <measurement term-label="[Sample]" term-accession="e.g. 12345" source-abbreviation="e.g. OBI"/>
+        <technology term-label="" term-accession="e.g. 12345" source-abbreviation="e.g. OBI"/>
+        <field header="Source Name" data-type="String" is-file-field="false" is-multiple-value="true" is-required="true" is-hidden="false">
+            <description><![CDATA[The biological sources used to build the character matrix. Each row of the matrix should generally correspond to a biological specimin of some sort.]]></description>
+            <default-value><![CDATA[]]></default-value>
+            <generated-value-template>[INSTITUTION].Group-[GROUP_NO].Subject-[SUBJECT_NO]</generated-value-template>
+        </field>
+        <field header="Material Type" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false">
+            <description><![CDATA[ISA material type corresponds to the type of characters measured in a matrix, such as 'DNA', 'RNA', or 'Morphological'.]]></description>
+            <default-value><![CDATA[]]></default-value>
+        </field>
+        <protocol-field protocol-type=""/>
+        <field header="Characteristics[OTU Name]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false">
+            <description><![CDATA[The human-readable OTU name corresponding to the matrix row.]]></description>
+            <default-value><![CDATA[]]></default-value>
+        </field>
+        <field header="Characteristics[Row OTU ID]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false">
+            <description><![CDATA[The unique identifier of the OTU represented by the row.]]></description>
+            <default-value><![CDATA[]]></default-value>
+        </field>
+        <field header="Sample Name" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false">
+            <description><![CDATA[The unique identifier of the matrix.]]></description>
+            <default-value><![CDATA[]]></default-value>
+            <generated-value-template>[INSTITUTION].Group-[GROUP_NO].Subject-[SUBJECT_NO].[SAMPLE_EXTRACT]</generated-value-template>
+        </field>
+        <field header="Characteristics[Characters OTUs Reference]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false">
+            <description><![CDATA[The unique ID of the <<otus>> element referenced by the <<characters>> element.]]></description>
+            <default-value><![CDATA[]]></default-value>
+        </field>
+        <field header="Characteristics[Number of Taxa in Matrix]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false">
+            <description><![CDATA[THe number of taxa (rows) in the matrix.]]></description>
+            <default-value><![CDATA[]]></default-value>
+        </field>
+        <field header="Characteristics[Number of Characters in Matrix]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false">
+            <description><![CDATA[The number of characters (columns) in the matrix.]]></description>
+            <default-value><![CDATA[]]></default-value>
+        </field>
+        <field header="Characteristics[Character Matrix Type]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false">
+            <description><![CDATA[The data type (e.g. DNA, RNA, Continuous Morphological, etc) of the character matrix.]]></description>
+            <default-value><![CDATA[]]></default-value>
+        </field>
+    </isatab-configuration>
+</isatab-config-file>

@@ -1,130 +1,141 @@
-<?xml version="1.1" encoding="UTF-8"?>
- <!-- NeXML to ISAtab Converstion -->
-<!-- Summer 2012 - Google Summer of Code - NESCent -->
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:local="local.uri" xmlns:isa="http://www.ebi.ac.uk/bii/isatab_configuration#"
+    exclude-result-prefixes="xs" xpath-default-namespace="http://www.nexml.org/2009" version="2.0">
 
-<!-- This file imports a stylesheet corresponding to each of the 3 ISAtab files,
-    Investigation, Study, and Assay.  It produces one of each when it encounters
-    <<nexml>>, <<characters>>, and <<trees>> elements in the source NeXML file,
-    respectively.  
-
-    Output will be in a directory named after the input file, with ISAtab files named
-    i_xxxx_n.txt, s_xxxx_n.txt, a_xxxx_n.txt.  
-    
-    Ex: S1040.xml, which has two <<characters>> and two <<trees>> elements:
-
-    -Output files-
-    ./S1040/i_S1040_1.txt
-    ./S1040/s_S1040_1.txt
-    ./S1040/s_S1040_2.txt
-    ./S1040/a_S1040_1.txt
-    ./S1040/a_S1040_2.txt
-
-    
-    The content of Investigation, Study, and Assay files are determined by templates
-    within their respective .xsl files.-->
-
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    version="2.0" xmlns:nex="http://www.nexml.org/2009" xpath-default-namespace="http://www.nexml.org/2009">
-    
-    <!-- This import will replace each import of template.xsl in the final version -->
     <xsl:import href="template.xsl"/>
-    
-    <!-- Note:  I have put little thought into the ordering of these imports yet.  They may require a tweak for performance -->
-    <xsl:import href="investigation.xsl"/>
-    <xsl:import href="study.xsl"/>
-    <xsl:import href="assay.xsl"/>
-    
-    <!-- This template controls the output files.  It takes parameters that tell us whether
-        it's an I, S, or A file, outputs a result-document with the correct name, and calls
-        the corresponding template-->
-    <xsl:template name="fileout">
+    <xsl:import href="mappings.xsl"/>
+
+    <xsl:template name="config-print">
+        <xsl:param name="table-name"/>
         <xsl:param name="prefix"/>
-        <xsl:param name="assaynum"/>
-        <xsl:param name="element"/>
-        <xsl:param name="tempname"/>
-        <xsl:for-each select=".">
-            
-            <!-- Construct proper output filepath -->
-            <xsl:variable name="filename" select="concat($filebase, '/', $prefix, '_', $filebase, '_', $assaynum, '.txt')" />
-            
-            <!-- Print file path to stdout.  TODO: make this a custom behavior-->
-            <xsl:text>Creating: </xsl:text>
-            <xsl:value-of select="concat($filename,$line)"/>
-            
-            <!-- Create the document using output path above -->
-            <xsl:result-document href="{$filename}">
-                
-                <!-- Choose template to call based on $tempname parameter -->
-                <xsl:choose>                          
-                    <xsl:when test="$tempname='assay'">
-                        <xsl:call-template name="assay"/>
-                    </xsl:when>
-                    <xsl:when test="$tempname='study'">
-                        <xsl:call-template name="study"/>
-                    </xsl:when>
-                    <xsl:when test="$tempname='investigation'">
-                        <xsl:call-template name="investigation"/>
-                    </xsl:when>
-                </xsl:choose>              
-            </xsl:result-document>         
-        </xsl:for-each>      
-    </xsl:template>
+        <xsl:param name="position"/>
+        <xsl:param name="id"/>
+        <xsl:variable name="current-config">
+            <xsl:copy-of select="collection('config')[/isa:isatab-config-file/isa:isatab-configuration/@table-name=$table-name]"/>
+        </xsl:variable>
+        <xsl:choose>
+            <!-- Investigation -->
+            <xsl:when test="$table-name='investigation'">
+                <xsl:variable name="filename" select="concat($filebase, '/', $prefix, '_', $filebase, '_', $position, '.txt')"/>
+                <xsl:result-document href="{$filename}">                 
+                    <xsl:for-each-group select="$current-config/isa:isatab-config-file/isa:isatab-configuration/isa:field" group-by="@section">
+                        <xsl:value-of select="current-grouping-key()"/>
+                        <xsl:value-of select="$line"/>
+                        <xsl:for-each select="current-group()">
+                            <xsl:value-of select="@header"/>
+                            <xsl:value-of select="$tab"/>
     
-    <!-- This is the main template -->
+                            <xsl:value-of select="local:investigation-map(@header)"/>
+    
+                            <xsl:value-of select="$line"/>
+                        </xsl:for-each>
+                    </xsl:for-each-group>
+                </xsl:result-document>
+            </xsl:when>
+
+            <!-- Study - Matrices -->
+            <xsl:when test="$table-name='matrix'">
+                <xsl:variable name="filename" select="concat($filebase, '/', $prefix, '_', $filebase, '_', $position, '.txt')"/>
+                <xsl:result-document href="{$filename}">
+                    <xsl:for-each select="$current-config/isa:isatab-config-file/isa:isatab-configuration/isa:field/@header">
+                        <xsl:value-of select="local:enquote(.)"/>
+                    </xsl:for-each>
+                    <xsl:value-of select="$line"/>
+
+                    <xsl:for-each select="$characters[@id=$id]/matrix/row">
+                       
+                        <xsl:variable name="row-id" select="@id"/>
+                        <xsl:for-each select="$current-config/isa:isatab-config-file/isa:isatab-configuration/isa:field/@header">
+                            <xsl:value-of select="local:matrix-map(.,$row-id, $position, $id)"/>
+                        </xsl:for-each>
+                        <xsl:value-of select="$line"/>
+                    </xsl:for-each>
+                </xsl:result-document>
+            </xsl:when>
+
+            <!-- Assay - Trees -->
+            <xsl:when test="$table-name='tree-inference'">
+                
+                <xsl:variable name="filename" select="concat($filebase, '/', $prefix, '_', $filebase, '_', $position, '.txt')"/>
+                <xsl:result-document href="{$filename}">
+                    <xsl:for-each select="$current-config/isa:isatab-config-file/isa:isatab-configuration/isa:field/@header">
+                        <xsl:value-of select="local:enquote(.)"/>
+                    </xsl:for-each>
+                    <xsl:value-of select="$line"/>
+                    
+                    <xsl:for-each select="$trees[@id=$id]/tree">
+                        <xsl:variable name="treeid" select="@id"/>
+                        <xsl:for-each select="$current-config/isa:isatab-config-file/isa:isatab-configuration/isa:field/@header">
+                            <xsl:value-of select="local:tree-map(.,$position,$treeid,$id)"/>
+                        </xsl:for-each>
+                    </xsl:for-each>
+
+                </xsl:result-document>
+            </xsl:when>
+
+            <xsl:otherwise>
+                <xsl:text>ERROR: Unrecognized table-name passed to local:config-print</xsl:text>
+            </xsl:otherwise>
+
+        </xsl:choose>
+
+
+    </xsl:template>
+
     <xsl:template match="/">
         
-        <!--output an Assay file for each trees element by calling fileout with params-->
-        <xsl:for-each select="/nexml/trees">
-            <xsl:call-template name="fileout">
-                <xsl:with-param name="prefix">
-                    <xsl:value-of>a</xsl:value-of>
+        <xsl:for-each select="$nexml">
+            <xsl:call-template name="config-print">
+                <xsl:with-param name="table-name">
+                    <xsl:value-of select="'investigation'"/>
                 </xsl:with-param>
-                <xsl:with-param name="assaynum">
+                <xsl:with-param name="prefix">
+                    <xsl:value-of select="'i'"/>
+                </xsl:with-param>
+                <xsl:with-param name="position">
                     <xsl:value-of select="position()"/>
                 </xsl:with-param>
-                <xsl:with-param name="element">
-                    <xsl:value-of>trees</xsl:value-of>
-                </xsl:with-param>
-                <xsl:with-param name="tempname">
-                    <xsl:value-of>assay</xsl:value-of>
+                <xsl:with-param name="id">
+                    <xsl:value-of select="@id"/>
                 </xsl:with-param>
             </xsl:call-template>
-        </xsl:for-each> 
+        </xsl:for-each>
         
-        <!-- output a Study file for each characters element -->
-        <xsl:for-each select="/nexml/characters">
-            <xsl:call-template name="fileout">
-                <xsl:with-param name="prefix">
-                    <xsl:value-of>s</xsl:value-of>
+        <xsl:for-each select="$characters">
+            <xsl:variable name="matrixid" select="@id"/>
+            <xsl:call-template name="config-print">
+                <xsl:with-param name="table-name">
+                    <xsl:value-of select="'matrix'"/>
                 </xsl:with-param>
-                <xsl:with-param name="assaynum">
+                <xsl:with-param name="prefix">
+                    <xsl:value-of select="'s'"/>
+                </xsl:with-param>
+                <xsl:with-param name="position">
                     <xsl:value-of select="position()"/>
                 </xsl:with-param>
-                <xsl:with-param name="element">
-                    <xsl:value-of>characters</xsl:value-of>
-                </xsl:with-param>
-                <xsl:with-param name="tempname">
-                    <xsl:value-of>study</xsl:value-of>
+                <xsl:with-param name="id">
+                    <xsl:value-of select="$matrixid"/>
                 </xsl:with-param>
             </xsl:call-template>
-        </xsl:for-each>  
+        </xsl:for-each>
         
-        <!-- output an Investigation file for each nexml element -->
-        <xsl:for-each select="//nexml">
-            <xsl:call-template name="fileout">
-                <xsl:with-param name="prefix">
-                    <xsl:value-of>i</xsl:value-of>
+        <xsl:for-each select="$trees">
+            <xsl:variable name="treeid" select="@id"/>
+            <xsl:call-template name="config-print">
+                <xsl:with-param name="table-name">
+                    <xsl:value-of select="'tree-inference'"/>
                 </xsl:with-param>
-                <xsl:with-param name="assaynum">
+                <xsl:with-param name="prefix">
+                    <xsl:value-of select="'a'"/>
+                </xsl:with-param>
+                <xsl:with-param name="position">
                     <xsl:value-of select="position()"/>
                 </xsl:with-param>
-                <xsl:with-param name="element">
-                    <xsl:value-of>nexml</xsl:value-of>
-                </xsl:with-param>
-                <xsl:with-param name="tempname">
-                    <xsl:value-of>investigation</xsl:value-of>
+                <xsl:with-param name="id">
+                    <xsl:value-of select="$treeid"/>
                 </xsl:with-param>
             </xsl:call-template>
-        </xsl:for-each>  
+        </xsl:for-each>
     </xsl:template>
+
 </xsl:stylesheet>

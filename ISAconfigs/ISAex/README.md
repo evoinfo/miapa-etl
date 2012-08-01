@@ -1,1 +1,0 @@
-This directory contains ISAtab example files.
