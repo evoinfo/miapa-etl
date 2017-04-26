@@ -9,7 +9,7 @@ From the project directory, run
 
 	./miapa-etl.sh 
 
-The script has inline instructions.  Requires a [SAXON jar] (http://sourceforge.net/projects/saxon/files/).  I use [SAXON 9.4 HE] (http://sourceforge.net/projects/saxon/files/Saxon-HE/9.4/).  You'll find 'saxon9he.jar` in [SaxonHE9-4-0-4J.zip](http://sourceforge.net/projects/saxon/files/Saxon-HE/9.4/SaxonHE9-4-0-4J.zip/download)
+The script has inline instructions.  Requires a [SAXON jar](http://sourceforge.net/projects/saxon/files/).  I use [SAXON 9.4 HE](http://sourceforge.net/projects/saxon/files/Saxon-HE/9.4/).  You'll find 'saxon9he.jar` in [SaxonHE9-4-0-4J.zip](http://sourceforge.net/projects/saxon/files/Saxon-HE/9.4/SaxonHE9-4-0-4J.zip/download)
 
 Optionally, you can pass it arguments:
 
@@ -44,14 +44,10 @@ The XSLT converts TreeBASE NeXML files into ISAtab files correctly.  Work contin
 
 
 #### Links 
-* [NESCent Project Wiki Page:] (http://informatics.nescent.org/wiki/PhyloSoC:_NeXML_to_MIAPA_mapping)
-
-* [Working Documentation (Google Docs)](bit.ly/ehmiapafolder)
-
+* [NESCent Project Wiki Page](http://informatics.nescent.org/wiki/PhyloSoC:_NeXML_to_MIAPA_mapping)
+* [Working Documentation (Google Docs)](http://bit.ly/ehmiapafolder)
 * [NeXML](http://nexml.org)
-
 * [National Evolutionary Synthesis Center](http://nescent.org)
-
 * [ISA Tools](http://isatools.org)
 
 
